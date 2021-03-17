@@ -1,17 +1,12 @@
-@font-face {
-    font-family: "Roboto";
-    src: url("/assets/css/font/Roboto/Roboto-Regular.ttf");
-   }
+@import url("style-font.css");
 
-   @font-face {
-    font-family: "SansitaSwashed-Regular";
-    src: url("/assets/css/font/Sansita_Swashed/SansitaSwashed-Regular.ttf");
-   } 
 
-   section{
-       font-family: Roboto;
-   }
+h1{
+    font-family: SansitaSwashed-Regular;
+    font-size: 48px;
+}
 
-   h1{
-       font-family: SansitaSwashed-Regular;
-   }
+section{
+    font-family: Roboto;
+}
+
