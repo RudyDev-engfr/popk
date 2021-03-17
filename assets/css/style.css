@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("/assets/css/font/Roboto/Roboto-Regular.ttf");
+   }
+
+   @font-face {
+    font-family: "SansitaSwashed-Regular";
+    src: url("/assets/css/font/Sansita_Swashed/SansitaSwashed-Regular.ttf");
+   } 
+
+   section{
+       font-family: Roboto;
+   }
+
+   h1{
+       font-family: SansitaSwashed-Regular;
+   }
