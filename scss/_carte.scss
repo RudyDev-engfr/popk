@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sansita+Swashed&display=swap');
+
+
+h1, h3{
+    font-family: "SansitaSwashed-Regular", cursive;
+
+}
+p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    
+
+}
+h3 {
+    font-size: 2.3rem;
+}
+
+img {
+    display: flex;
+    margin: auto;
+    width: 70%;
+}
+#landing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#landing img{
+    width: 50%;
+}
+.card-right, .card-left{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 40px 40px;
+    
+}
+ul{
+    display: flex;
+    flex-flow: wrap;
+    width: 100%;
+}
+ul li{
+    color: rgba(24, 22, 22, 0.904);
+    font-weight: 700;
+    font-size: 1.1rem;;
+    margin-right: 30px;
+    list-style-type: circle;
+    text-transform: uppercase;
+}
+
+.first-blood{
+    width: 50%;
+    text-align: center;
+    transform: rotate(-4deg) skew(-5deg, 0);
+    background-color: rgba(165, 6, 6, 0.808);
+    color: #ffe600;
+}
+.nunu{
+    width: 30%;
+    text-align: center;
+    transform: rotate(-4deg) skew(-5deg, 0);
+    background-color: #5cd7e4;
+    color: #f7f7f7;
+}
+.smite{
+    width: 30%;
+    text-align: center;
+    background-color: #ff5d00;
+    color: navajowhite;
+    transform: rotate(-4deg) skew(-5deg, 0);
+}
+.garrosh{
+    width: 40%;
+    text-align: center;
+    background-color: rgb(14, 13, 13);
+    color: #e91414;
+    text-align: center;
+    transform: rotate(-4deg) skew(-5deg, 0);
+}
+.lili{
+    background-color: black;
+    color: #e62059;
+    width: 20%;
+    text-align: center;
+    transform: rotate(-4deg) skew(-5deg, 0);
+}
+.prodigy{
+    background-color:black;
+    color: #ff5d00;
+    width: 70%;
+    text-align: center;
+    transform: rotate(-4deg) skew(-5deg, 0);
+}
+
+
