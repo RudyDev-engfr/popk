@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* menu */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Sansita+Swashed&display=swap");
 header {
   position: fixed;
   top: 0;
@@ -274,6 +275,7 @@ footer {
   font-size: 1.4rem;
 }
 
+/* popk */
 .bodyPopk {
   height: 1800px;
   width: 100%;
