@@ -15,6 +15,8 @@ footer {
   background: -webkit-gradient(linear, left top, right top, from(#050052), color-stop(21%, #090979), to(#00d4ff));
   background: linear-gradient(90deg, #050052 0%, #090979 21%, #00d4ff 100%);
   z-index: 1;
+  -webkit-box-shadow: 50px 16px 16px white;
+          box-shadow: 50px 16px 16px white;
 }
 
 .links {

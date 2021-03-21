@@ -1,18 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
-  scroll-behavior: smooth;
-}
-
-body {
-  width: 100%;
-  background-color: black;
-}
-
+/* popk */
 .bodyPopk {
   height: 1800px;
   width: 100%;
@@ -44,6 +30,7 @@ img {
   margin: auto;
   color: white;
   font-size: 2.4rem;
+  text-shadow: 1px 4px 4px rgba(255, 127, 218, 0.4);
 }
 
 .elementsPopk {
@@ -82,6 +69,7 @@ h2 {
 p {
   width: 80%;
   margin: auto;
+  font-family: 'Roboto', sans-serif;
 }
 
 .cut {
@@ -171,13 +159,13 @@ iframe {
 
 .titleForm {
   position: relative;
-  top: 45px;
+  top: 55px;
   color: white;
 }
 
 form {
   background-color: #ff7fda;
-  height: 350px;
+  height: auto;
   width: 80%;
   margin: auto;
   display: -webkit-box;
@@ -228,7 +216,7 @@ textarea {
   }
   .titlePopk {
     position: relative;
-    bottom: 35px;
+    bottom: 55px;
   }
   .presentation {
     height: 25rem;

@@ -6,7 +6,7 @@
             <p><i class="fas fa-clock"></i>15H30/00H</p>
         </div>
         <div class="logo">
-            <a href="index.html">Logo</a>
+            <a href="index.php">Logo</a>
         </div>
     </div>
     <div id="nav-mobile">
@@ -22,15 +22,15 @@
                     <li><a href="popk.php#ancrePop2">Contactez-nous<i class="fas fa-address-book"></i></a></li>
                 </ul>
             </li>
-            <li><a href="carte.html">Carte<i class="fas fa-mug-hot"></i></a></li>
+            <li><a href="carte.php">Carte<i class="fas fa-mug-hot"></i></a></li>
             <li>
                 <a href="#!">Events<i class="fas fa-calendar-alt"></i></a>
                 <ul class="nav-dropdown">
-                    <li><a href="évènements.html">À venir<i class="fas fa-calendar-check"></i></a></li>
-                    <li><a href="évènements.html">Hall of Fame<i class="fas fa-trophy"></i></a></li>
+                    <li><a href="évènements.php">À venir<i class="fas fa-calendar-check"></i></a></li>
+                    <li><a href="évènements.php">Hall of Fame<i class="fas fa-trophy"></i></a></li>
                 </ul>
             </li>
-            <li><a href="livreor.html">Livre d'or<i class="fas fa-book"></i></a></li>
+            <li><a href="livreor.php">Livre d'or<i class="fas fa-book"></i></a></li>
         </ul>
     </nav>
 </header>

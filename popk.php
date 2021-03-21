@@ -9,7 +9,7 @@
 </head>
 <body>
     <?php include "_header.php"; ?>
-    <section class="bodyPopk">
+    <main class="bodyPopk">
         <div class="backgroundPopk">
             <img src="images/gaming1.jpg" alt="deux garçons assis avec des écrans et des consoles">
             <h1 class="titlePopk">Le PopK</h1>
@@ -50,7 +50,7 @@
                 </form>
             </div>
         </div>
-    </section>
+    </main>
     <?php include "_footer.php"; ?>
     <script src="js/jquery-3.5.1.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
