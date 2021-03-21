@@ -17,9 +17,9 @@
             <li>
                 <a href="#!">PopK<i class="fas fa-home"></i></a>
                 <ul class="nav-dropdown">
-                    <li><a href="popk.html">Le cyber-café<i class="fas fa-laptop-house"></i></a></li>
-                    <li><a href="#ancrePop1">Infos pratiques<i class="fas fa-info-circle"></i></a></li>
-                    <li><a href="#ancrePop2">Contactez-nous<i class="fas fa-address-book"></i></a></li>
+                    <li><a href="popk.php">Le cyber-café<i class="fas fa-laptop-house"></i></a></li>
+                    <li><a href="popk.php#ancrePop1">Infos pratiques<i class="fas fa-info-circle"></i></a></li>
+                    <li><a href="popk.php#ancrePop2">Contactez-nous<i class="fas fa-address-book"></i></a></li>
                 </ul>
             </li>
             <li><a href="carte.html">Carte<i class="fas fa-mug-hot"></i></a></li>
