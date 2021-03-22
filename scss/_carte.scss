@@ -6,6 +6,9 @@ h1, h3{
     font-family: "SansitaSwashed-Regular", cursive;
 
 }
+h2{
+    text-align: center;
+}
 p {
     font-family: "Roboto", sans-serif;
     font-size: 1.2rem;
@@ -34,10 +37,10 @@ img {
     color: #ff7fda;
 }
 #landing img{
-    width: 40%;
+    width: 50%;
 }
 #landing :nth-child(2){
-    width: 40%;
+    width: 30%;
 }
 #hero-bar{
     width: 100%;
@@ -133,7 +136,38 @@ ul li{
 
 @media only screen and (min-width:767px){
 
-
+#intro-cocktail{
+    display:flex;
+    align-items: center;
+}
+img{
+    width: 35%;
+}
+.card-left{
+    margin-left: 50px;
+    width: 70%;
+    clip-path: none;
+    box-shadow: 18px -16px #050052;
+}
+.left-card{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 40px 0px;
+    width: 100%;
+}
+.card-right{
+    margin-right: 50px;
+    width: 70%;
+    clip-path: none;
+    box-shadow: -16px 18px #050052;
+}
+.right-card{
+    display: flex;
+    align-items: center;
+    margin-top: 40px 0px;
+    width: 100%;
+}
 }
 
 

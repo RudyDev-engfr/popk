@@ -3,6 +3,10 @@ h1, h3 {
   font-family: "SansitaSwashed-Regular", cursive;
 }
 
+h2 {
+  text-align: center;
+}
+
 p {
   font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
@@ -44,11 +48,11 @@ img {
 }
 
 #landing img {
-  width: 40%;
+  width: 50%;
 }
 
 #landing :nth-child(2) {
-  width: 40%;
+  width: 30%;
 }
 
 #hero-bar {
@@ -181,5 +185,59 @@ ul li {
   text-align: center;
   -webkit-transform: rotate(-4deg) skew(-5deg, 0);
           transform: rotate(-4deg) skew(-5deg, 0);
+}
+
+@media only screen and (min-width: 767px) {
+  #intro-cocktail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  img {
+    width: 35%;
+  }
+  .card-left {
+    margin-left: 50px;
+    width: 70%;
+    -webkit-clip-path: none;
+            clip-path: none;
+    -webkit-box-shadow: 18px -16px #050052;
+            box-shadow: 18px -16px #050052;
+  }
+  .left-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 40px 0px;
+    width: 100%;
+  }
+  .card-right {
+    margin-right: 50px;
+    width: 70%;
+    -webkit-clip-path: none;
+            clip-path: none;
+    -webkit-box-shadow: -16px 18px #050052;
+            box-shadow: -16px 18px #050052;
+  }
+  .right-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 40px 0px;
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
