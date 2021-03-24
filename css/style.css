@@ -4,6 +4,11 @@
   --whitefont: white;
 }
 
+body {
+  background: #4a0979;
+  background: linear-gradient(138deg, #4a0979 25%, #ff7fda 80%);
+}
+
 .icard {
   margin-right: 5px;
 }
@@ -107,5 +112,17 @@ ul, li {
 
 .reserve {
   background: #050052;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .roomtitle {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .roomtitle {
+    font-size: 4rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */

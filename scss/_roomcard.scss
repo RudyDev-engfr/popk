@@ -5,7 +5,11 @@
     --blackfont : black;
     --whitefont : white;
 }
-.icard{
+body{
+    background: rgb(74,9,121);
+    background: linear-gradient(138deg, rgba(74,9,121,1) 25%, rgba(255,127,218,1) 80%); 
+}
+    .icard{
     margin-right: 5px;
 }
 ul, li{
@@ -96,3 +100,14 @@ ul, li{
     .reserve{
         background: #050052;
     }
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    .roomtitle{
+        font-size: 3rem;
+    }
+}
+@media only screen and (min-width: 993px){
+    .roomtitle{
+        font-size: 4rem;
+    }
+}
