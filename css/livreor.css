@@ -7,7 +7,7 @@
   text-align: center;
 }
 
-.presentation p {
+.presentation .pPopk1 {
   position: relative;
   top: 15px;
 }
@@ -41,14 +41,14 @@
   width: 60%;
 }
 
-.rating a {
+.rating .aRating {
   margin: auto;
   color: #aaa;
   text-decoration: none;
   font-size: 2em;
 }
 
-.rating a:hover, .rating a:focus, .rating a:hover ~ a, .rating a:focus ~ a {
+.rating .aRating:hover, .rating .aRating:focus, .rating .aRating:hover ~ .aRating, .rating .aRating:focus ~ .aRating {
   color: #00f3ff;
   cursor: pointer;
 }

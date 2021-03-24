@@ -2,34 +2,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sansita+Swashed&display=swap');
 
 
-h1, h3{
+#body_carte h1, h3{
     font-family: "SansitaSwashed-Regular", cursive;
 
 }
-h2{
+#body_carte h2{
     text-align: center;
 }
-p {
+#body_carte p {
     font-family: "Roboto", sans-serif;
     font-size: 1.2rem;
     text-align: center;
     padding: 5px;
 }
-h3 {
+#body_carte h3 {
     text-align: center;
     font-size: 2.3rem;
 }
 
 /* body */
-body{
+#body_carte{
     margin: 0;
     background-color: rgb(14, 13, 13);
 }
-img {
+#cocktail_a img {
     display: flex;
     margin: auto;
     width: 70%;
 }
+#cocktail_sa img {
+    display: flex;
+    margin: auto;
+    width: 70%;
 #landing{
     display: flex;
     flex-direction: column;
@@ -51,7 +55,7 @@ img {
     clip-path: polygon(100% 0, 100% 76%, 0 100%, 0 0);
     background: linear-gradient(90deg, rgba(5,0,82,1) 0%, rgba(9,9,121,1) 21%, rgba(0,212,255,1) 100%);
 }
-a{
+#body_carte a{
     text-decoration: none;
     color: #ff7fda;
 }
@@ -77,12 +81,12 @@ a{
     clip-path: polygon(0 0, 100% 6%, 100% 94%, 0 100%);
     background: linear-gradient(90deg, rgba(5,0,82,1) 0%, rgba(9,9,121,1) 21%, rgba(0,212,255,1) 100%);
 }
-ul{
+#body_carte ul{
     display: flex;
     flex-flow: wrap;
     width: 90%;
 }
-ul li{
+#body_carte ul li{
     color: #ff7fda;
     font-weight: 700;
     font-size: 1.1rem;;
@@ -185,11 +189,4 @@ img{
     top: 210px;
     right: 130px;
 }
-#img-landing{
-    background-image: url(../images/neon-bar.jpg);
 }
-}
-
-
-
-

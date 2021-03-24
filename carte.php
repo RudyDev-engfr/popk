@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>La carte</title>
 </head>
-<body>
+<body id="body_carte">
     <main>
         <section id="landing">
             <div id="hero-bar">
