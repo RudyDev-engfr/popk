@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Sansita+Swashed&display=swap");
+:root {
+  --blackfont: black;
+  --whitefont: white;
+}
+
+.icard {
+  margin-right: 5px;
+}
+
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+* {
+  font-family: Roboto, sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+
+.roomset {
+  display: inline-block;
+  width: 100%;
+}
+
+.roomcard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 75%;
+  height: auto;
+  margin: 30px auto;
+}
+
+.roomcard img {
+  max-width: 100%;
+  height: auto;
+  z-index: 0;
+}
+
+.roomtitle {
+  display: inline;
+  font-size: 2.3rem;
+  width: 100%;
+  text-shadow: 0 0 5px black;
+  color: white;
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(-4deg) skew(-5deg, 0);
+          transform: translate(-50%, -50%) rotate(-4deg) skew(-5deg, 0);
+  z-index: 1;
+}
+
+.modal {
+  max-width: 70%;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 30px;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-top: 30%;
+}
+
+#roomtext1, #roomtext2, #roomtext3 {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 2;
+}
+
+.roomtexttitle {
+  font-size: 2.3rem;
+  margin-top: 0;
+}
+
+.closemodal, .reserve {
+  padding: 10px 10px;
+  color: #fff;
+  border: transparent;
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+
+.closemodal {
+  background: #ff7fda;
+}
+
+.reserve {
+  background: #050052;
+}
+/*# sourceMappingURL=style.css.map */

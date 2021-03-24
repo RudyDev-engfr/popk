@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sansita+Swashed&display=swap');
+
+
+:root{
+    --blackfont : black;
+    --whitefont : white;
+}
+.icard{
+    margin-right: 5px;
+}
+ul, li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+*{
+    font-family: Roboto, sans-serif;
+}
+.center{
+    text-align: center;
+}
+.roomset{
+    display: inline-block;
+    width: 100%;
+}
+.roomcard{
+    display: flex;
+    position: relative; //Les positions absolute des enfants seront calés par rapport à moi
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 75%;
+    height: auto;
+    margin: 30px auto;   
+}
+
+.roomcard img{
+    max-width: 100%;
+    height: auto;
+    z-index: 0;
+}
+
+.roomtitle{
+    display: inline;
+    font-size: 2.3rem;
+    width: 100%;
+    text-shadow: 0 0 5px black;
+    color: white;
+    position: absolute; // La position est calée par rapport à mon parent : roomcard
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-4deg) skew(-5deg, 0); //Placement au centre + rotation du texte
+    z-index: 1;
+}
+
+.modal { //C'est la div blanche, là où le bloc de texte apparaît
+    max-width: 70%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 30px;
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-top: 30%;
+    }
+
+    #roomtext1, #roomtext2, #roomtext3{ // Ce sont les éléments activés par le clic, qui permettent de positionner la div et le bg notamment
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background:  rgba(0, 0, 0, 0.7);
+        z-index: 2; // utilisé afin d'éviter que roomtitle passe par dessus
+    }
+
+    .roomtexttitle{
+        font-size: 2.3rem;
+        margin-top: 0;
+    }
+
+    .closemodal, .reserve{
+        padding: 10px 10px;
+        color: #fff;
+        border: transparent;
+        border-radius: 10px;
+        font-size: 1.5rem;
+      }
+
+    .closemodal{
+        background: #ff7fda;
+    }
+    
+    .reserve{
+        background: #050052;
+    }
