@@ -88,6 +88,7 @@ header {
 
 nav {
   float: right;
+  width: 50%;
 }
 
 nav ul li {
