@@ -53,9 +53,7 @@ img {
 }
 a{
     text-decoration: none;
-}
-a:visited{
-    color: rgba(9,9,121,1);
+    color: #ff7fda;
 }
 #intro-cocktail{
     display: flex;
@@ -139,6 +137,10 @@ ul li{
 #intro-cocktail{
     display:flex;
     align-items: center;
+    box-shadow: 18px -16px #050052 ;
+    clip-path: none;
+    width: 70%;
+    margin: 0 auto;
 }
 img{
     width: 35%;
@@ -167,6 +169,15 @@ img{
     align-items: center;
     margin-top: 40px 0px;
     width: 100%;
+}
+#responsive_cocktail{
+    display: flex;
+    align-items: center;
+    height: 400px;
+    background-image: url(../images/neopen.jpg);
+}
+h1{
+    color: white;
 }
 }
 
