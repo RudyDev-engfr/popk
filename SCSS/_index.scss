@@ -36,7 +36,8 @@ h2 {
     font-size:48px;
     font-family: 'Sansita Swashed';
     color: $thirdColor;
-    text-shadow: 5px 5px 5px $secondaryColor;    
+    text-shadow: 5px 5px 5px $secondaryColor; 
+    margin: 10px 0pX;   
 }
 
 h3{
@@ -69,9 +70,8 @@ section.sectIndex{
     margin:10px 5px;  
     display: flex;
     color:#FFF;
-    height: 80vh;
+    height: 100vh;
     padding: 10px;
-
 }
 
 /* Slide / video */
@@ -107,6 +107,11 @@ section.sectIndex{
 /*
         Evenements
 */
+
+#listEvents{
+    display: flex;
+    flex: 5;
+}
 
 #idEvents{
     display: flex;
@@ -164,7 +169,7 @@ span{
     Card FeedBack
 */
 
-#idFeedback{
+#idFeedback,#idEvents{
     display: flex;
     flex-direction: column;
 }
@@ -183,6 +188,7 @@ article.feedback{
     max-width: 320px;
 }
 
+
 .cartImgTop{
     height: 30%;
     width: 100%;
@@ -195,7 +201,7 @@ article.feedback{
 
 .cartImgTop img{
     top: 100%;
-     left: 50%; 
+    left: 50%; 
     transform: translate(-50%, -50%);
     background-color:red;
     width:100px;
@@ -203,7 +209,6 @@ article.feedback{
     border-radius:50%;
     position: absolute;
 }
-
 
 .card-body{
     flex:1;
@@ -221,6 +226,21 @@ article.feedback{
 .card-text{
     flex:3;
     padding: 5px;
+}
+
+#divLivreOr{
+    text-align: center;
+}
+
+.divButton{
+    border-radius:20px;
+    background-color: $primaryColor;
+    color:$lightColor;
+    margin: auto;
+    padding: 10px;
+    box-sizing: content-box;
+    width: 150px;
+    box-shadow: 5px 5px 5px $secondaryColor; ;
 }
 
 @media screen and (max-width:760px){
@@ -243,6 +263,11 @@ article.feedback{
    
     section.sectIndex{
         height: 60vh;
+    }
+
+    .cartImgTop img{
+        width: 50%;
+        height: auto;
     }
 }
 
