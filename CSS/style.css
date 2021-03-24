@@ -27,6 +27,7 @@ h2 {
   font-family: 'Sansita Swashed';
   color: #00f3ff;
   text-shadow: 5px 5px 5px #ff7fda;
+  margin: 10px 0pX;
 }
 
 h3 {
@@ -61,7 +62,7 @@ section.sectIndex {
   display: -ms-flexbox;
   display: flex;
   color: #FFF;
-  height: 80vh;
+  height: 100vh;
   padding: 10px;
 }
 
@@ -99,6 +100,15 @@ section.sectIndex {
 /*
         Evenements
 */
+#listEvents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+}
+
 #idEvents {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -166,7 +176,7 @@ span {
 /*
     Card FeedBack
 */
-#idFeedback {
+#idFeedback, #idEvents {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -252,6 +262,23 @@ article.feedback {
   padding: 5px;
 }
 
+#divLivreOr {
+  text-align: center;
+}
+
+.divButton {
+  border-radius: 20px;
+  background-color: #050052;
+  color: #EEE;
+  margin: auto;
+  padding: 10px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  width: 150px;
+  -webkit-box-shadow: 5px 5px 5px #ff7fda;
+          box-shadow: 5px 5px 5px #ff7fda;
+}
+
 @media screen and (max-width: 760px) {
   h2 {
     font-size: 1.2rem;
@@ -269,6 +296,10 @@ article.feedback {
   section.sectIndex {
     height: 60vh;
   }
+  .cartImgTop img {
+    width: 50%;
+    height: auto;
+  }
 }
 
 /* menu */
@@ -283,6 +314,11 @@ header {
   -webkit-box-shadow: 1px 4px 6px rgba(255, 255, 255, 0.2);
           box-shadow: 1px 4px 6px rgba(255, 255, 255, 0.2);
   z-index: 50;
+}
+
+img.imgLogo {
+  width: 64px;
+  height: auto;
 }
 
 .brand {

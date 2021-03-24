@@ -6,7 +6,7 @@
             <p><i class="fas fa-clock"></i>15H30/00H</p>
         </div>
         <div class="logo">
-            <a href="index.php">Logo</a>
+            <a href="index.php"><img class="imgLogo" src="/images/popk.png" alt="logo"></a>
         </div>
     </div>
     <div id="nav-mobile">

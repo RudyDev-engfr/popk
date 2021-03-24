@@ -11,6 +11,11 @@
     z-index: 50;
   }
   
+  img.imgLogo{
+    width: 64px;
+    height: auto;
+  }
+
   .brand {
     width: 25%;
     height:100%;
@@ -157,6 +162,7 @@
     .logo a {
       padding-right: 2rem;
     }
+
     nav ul {
       display : none;
     }
