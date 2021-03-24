@@ -1,0 +1,218 @@
+/* popk */
+
+.bodyPopk {
+    height: 1850px;
+    width: 100%;
+}
+
+.backgroundPopk {
+    height: 400px;
+    width: 100%;
+    position: relative;
+    top: 66px;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
+    text-align: center;
+    display: flex;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+}
+
+.titlePopk {
+    margin: auto;
+    color: white;
+    font-size: 2.4rem;
+    text-shadow: 1px 4px 4px rgba(255,127,218, 0.4);
+}
+
+.elementsPopk {
+    height:850px;
+    text-align: center;
+}
+
+.presentation {
+    margin: auto;
+    height: 16rem;
+    width: 80%;
+    background: rgb(5,0,82);
+    background: linear-gradient(90deg, rgba(5,0,82,1) 0%, rgba(9,9,121,1) 21%, rgba(0,212,255,1) 100%);
+    z-index: 5;
+    position: relative;
+    top: -5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h2 {
+    font-size: 1.6rem;
+    width:100%;
+    margin-top: 15px;
+}
+
+p{
+    width:80%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cut {
+    width:100%;
+    height:10px;
+    background-color: rgb(255,127,218);
+    margin-top: 50px;
+}
+
+.infos {
+    height: 450px;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.infos div {
+    height: 20rem;
+    width:30%;
+    background: rgb(5,0,82);
+    background: linear-gradient(90deg, rgba(5,0,82,1) 0%, rgba(9,9,121,1) 21%, rgba(0,212,255,1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+
+.infos div:hover {
+    box-shadow: 4px 4px 4px rgba(255,255,255,0.4);
+}
+
+h3 {
+    margin-top: 15px;
+
+}
+
+.infos1 i {
+    font-size: 3rem;
+    margin-top: 45px;
+}
+
+address {
+    margin: auto;
+}
+
+.hours i {
+    font-size: 1.2rem;
+    padding-right: 1rem;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;   
+}
+
+.formulary {
+    width: 80%;
+    height:625px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titleForm {
+    position: relative;
+    top: 55px;
+    color:white;
+}
+
+form {
+    background-color: rgb(255,127,218);
+    height: auto;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 0.8rem;
+}
+
+label {
+    padding: 10px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+input {
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+
+textarea {
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+}
+
+.send {
+    width: 25%;
+    height: 20%;
+    margin-top: 15px;
+    padding: 0;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+}
+
+.send:hover {
+    cursor: pointer;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.6); 
+}
+
+@media only screen and (max-width:767px) {
+
+    .bodyPopk{
+        height: 2100px;
+    }
+    .backgroundPopk {
+        height: 300px;
+    }
+    .titlePopk{
+        position: relative;
+        bottom:55px;
+    }
+    .presentation {
+        height: 25rem;
+        top: -75px;
+    }
+    .cut {
+        margin-top: 15px;
+    }
+    .infos {
+        display: inline-flex;
+        flex-direction: column;
+        margin-top: 15px;  
+        height:800px;
+    }
+
+    .infos div {
+        height: 30%;
+        width:80%;
+    }
+
+    h3 {
+        margin-top: 5px;
+    }
+
+    .formulary {
+        height: 600px;
+    }
+
+}

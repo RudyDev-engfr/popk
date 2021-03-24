@@ -1,0 +1,132 @@
+/* livre d'or */
+
+.bodyLivre {
+    height: 2000px;
+}
+
+.elementsLivre {
+    text-align: center;
+}
+
+.presentation p {
+    position: relative;
+    top: 15px;
+}
+
+.elementsLivre button {
+    margin: auto;
+    width:auto;
+    border-radius: 45px;
+    background-color: transparent;
+}
+
+
+.elementsLivre i {
+    font-size: 2rem;
+    color: black;
+}
+
+.elementsLivre i:hover {
+    color: white;
+}
+
+.rating {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    background:white;
+    border: 1px solid rgb(133, 133, 133);
+    width: 60%;
+}
+
+.rating a {
+    margin: auto;
+    color: #aaa;
+    text-decoration: none;
+    font-size: 2em;
+ }
+ 
+.rating a:hover, .rating a:focus, .rating a:hover ~ a, .rating a:focus ~ a {
+    color: #00f3ff;
+    cursor: pointer;
+}
+
+.form2 {
+    margin-top: 100px;
+}
+
+.button2{
+    margin-top:50px;
+}
+
+.button2 i {
+    color: #00f3ff;
+}
+
+.comment {
+    height:625px;
+}
+
+.listComment {
+    height:400px;
+    width:80%;
+    margin: auto;
+    position: relative;
+    top: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.cardComment {
+    height: 300px;
+    width:30%;
+    background: rgb(5,0,82);
+    background: linear-gradient(90deg, rgba(5,0,82,1) 0%, rgba(9,9,121,1) 21%, rgba(0,212,255,1) 100%); 
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cardName {
+    background-color: #00f3ff;
+    width: 100%;
+    height:20%;
+    /* clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 84%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardImage {
+    height:5rem;
+    width: 5rem;
+    clip-path: circle(50% at 50% 50%);
+    display: flex;
+    position: relative;
+    top: 25px;
+}
+
+.cardImage img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position:absolute;
+}
+
+.cardContent {
+    margin: auto;
+    width: 90%;
+    height: 50%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width:767px) {
+
+    .rating {
+        margin: auto;
+    }
+
+}

@@ -13,8 +13,6 @@
             <div id="hero-bar">
                 <h1>La PopKarte </h1>
             </div>
-            <div id="img-landing">
-            </div>
             <section id="intro-cocktail">
                 <p>Le popK vous propose un choix unique de coktail avec & sans alcool ! 
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quas provident nihil deserunt voluptatibus quis quo aut eius beatae reprehenderit!
@@ -25,7 +23,6 @@
             <div id="responsive_cocktail">
             <a href="#cocktail_sa"><img src="images/cocktailbleu.png" alt="Cocktail sans alcool" /></a>
             <a href="#cocktail_sa"><h2>Sans alcool</h2></a>
-
             <a href="#cocktail_a"><img src="images/cocktailrose.png" alt="Cocktail avec alcool" /></a>
             <a href="#cocktail_a"><h2>Alcool</h2></a>
             </div>
@@ -59,7 +56,6 @@
                     </ul>
                 </div>
             </article>
-            
             <article class="left-card">
                 <img src="images/nunu-complete.png" alt="Cocktail Nunu " class="first-color" />
                 <div class="card-left">

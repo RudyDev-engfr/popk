@@ -1,2 +1,25 @@
 
+@import 'header.scss';
+@import 'footer.scss';
+@import 'popk.scss';
+@import 'livreor.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sansita+Swashed&display=swap');
 @import "carte";
+@import "roomcard";
+@import '_index.scss';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition:0.3s ease-in-out;
+    scroll-behavior: smooth;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+body {
+    width: 100%;
+    background-color: black;
+}
+
