@@ -2,6 +2,7 @@
 .bodyPopk {
   height: 1850px;
   width: 100%;
+  position: relative;
 }
 
 .backgroundPopk {
@@ -17,7 +18,7 @@
   display: flex;
 }
 
-img {
+.imgPopk1 {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -60,13 +61,13 @@ img {
       justify-content: space-around;
 }
 
-h2 {
+.h2Popk {
   font-size: 1.6rem;
   width: 100%;
   margin-top: 15px;
 }
 
-p {
+.pPopk1 {
   width: 80%;
   margin: auto;
   font-family: 'Roboto', sans-serif;
@@ -118,7 +119,7 @@ p {
           box-shadow: 4px 4px 4px rgba(255, 255, 255, 0.4);
 }
 
-h3 {
+.h3Popk {
   margin-top: 15px;
 }
 
@@ -143,7 +144,7 @@ iframe {
 
 .formulary {
   width: 80%;
-  height: 600px;
+  height: 625px;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -163,7 +164,7 @@ iframe {
   color: white;
 }
 
-form {
+.form-example {
   background-color: #ff7fda;
   height: auto;
   width: 80%;
@@ -243,7 +244,7 @@ textarea {
     height: 30%;
     width: 80%;
   }
-  h3 {
+  .h3Popk {
     margin-top: 5px;
   }
   .formulary {

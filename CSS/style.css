@@ -277,6 +277,7 @@ footer {
 .bodyPopk {
   height: 1850px;
   width: 100%;
+  position: relative;
 }
 
 .backgroundPopk {
@@ -292,7 +293,7 @@ footer {
   display: flex;
 }
 
-img {
+.imgPopk1 {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -335,13 +336,13 @@ img {
       justify-content: space-around;
 }
 
-h2 {
+.h2Popk {
   font-size: 1.6rem;
   width: 100%;
   margin-top: 15px;
 }
 
-p {
+.pPopk1 {
   width: 80%;
   margin: auto;
   font-family: 'Roboto', sans-serif;
@@ -393,7 +394,7 @@ p {
           box-shadow: 4px 4px 4px rgba(255, 255, 255, 0.4);
 }
 
-h3 {
+.h3Popk {
   margin-top: 15px;
 }
 
@@ -418,7 +419,7 @@ iframe {
 
 .formulary {
   width: 80%;
-  height: 600px;
+  height: 625px;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -438,7 +439,7 @@ iframe {
   color: white;
 }
 
-form {
+.form-example {
   background-color: #ff7fda;
   height: auto;
   width: 80%;
@@ -518,7 +519,7 @@ textarea {
     height: 30%;
     width: 80%;
   }
-  h3 {
+  .h3Popk {
     margin-top: 5px;
   }
   .formulary {
@@ -528,14 +529,14 @@ textarea {
 
 /* livre d'or */
 .bodyLivre {
-  height: 1950px;
+  height: 2000px;
 }
 
 .elementsLivre {
   text-align: center;
 }
 
-.presentation p {
+.presentation .pPopk1 {
   position: relative;
   top: 15px;
 }
@@ -569,14 +570,14 @@ textarea {
   width: 60%;
 }
 
-.rating a {
+.rating .aRating {
   margin: auto;
   color: #aaa;
   text-decoration: none;
   font-size: 2em;
 }
 
-.rating a:hover, .rating a:focus, .rating a:hover ~ a, .rating a:focus ~ a {
+.rating .aRating:hover, .rating .aRating:focus, .rating .aRating:hover ~ .aRating, .rating .aRating:focus ~ .aRating {
   color: #00f3ff;
   cursor: pointer;
 }
@@ -594,7 +595,7 @@ textarea {
 }
 
 .comment {
-  height: 600px;
+  height: 625px;
 }
 
 .listComment {
@@ -606,8 +607,9 @@ textarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -619,10 +621,9 @@ textarea {
   background: #050052;
   background: -webkit-gradient(linear, left top, right top, from(#050052), color-stop(21%, #090979), to(#00d4ff));
   background: linear-gradient(90deg, #050052 0%, #090979 21%, #00d4ff 100%);
-  border-radius: 8px;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -632,9 +633,8 @@ textarea {
 .cardName {
   background-color: #00f3ff;
   width: 100%;
-  height: 40%;
-  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 84%);
-          clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 84%);
+  height: 20%;
+  /* clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 84%); */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -649,9 +649,13 @@ textarea {
 .cardImage {
   height: 5rem;
   width: 5rem;
-  background-color: green;
   -webkit-clip-path: circle(50% at 50% 50%);
           clip-path: circle(50% at 50% 50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: 25px;
 }
 
 .cardImage img {
@@ -659,6 +663,7 @@ textarea {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  position: absolute;
 }
 
 .cardContent {
@@ -681,19 +686,58 @@ textarea {
   }
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
-  scroll-behavior: smooth;
-  font-family: 'Sansita Swashed', cursive;
+.mainForm {
+  height: 628px;
 }
 
-body {
-  width: 100%;
-  background-color: black;
+.mainForm .divForm {
+  width: 80%;
+  height: 350px;
+  margin: auto;
+  background: #050052;
+  background: -webkit-gradient(linear, left top, right top, from(#050052), color-stop(21%, #090979), to(#00d4ff));
+  background: linear-gradient(90deg, #050052 0%, #090979 21%, #00d4ff 100%);
+  position: relative;
+  top: 200px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 8px;
+}
+
+.formReturn {
+  width: auto;
+  border-radius: 8px;
+  background-color: #00f3ff;
+  padding: 1rem;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+          box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.buttonForm {
+  width: 20%;
+  margin: auto;
+  padding: 1rem;
+  background-color: #00f3ff;
+  border-radius: 4px;
+  border: none;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+          box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.buttonForm:hover {
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.8);
+          box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.8);
+}
+
+.buttonForm a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
 }
 /*# sourceMappingURL=style.css.map */

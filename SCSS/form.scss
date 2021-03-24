@@ -1,0 +1,45 @@
+.mainForm {
+    height: 628px;
+}
+
+.mainForm .divForm {
+    width: 80%;
+    height:350px;
+    margin: auto;
+    background: rgb(5,0,82);
+    background: linear-gradient(90deg, rgba(5,0,82,1) 0%, rgba(9,9,121,1) 21%, rgba(0,212,255,1) 100%); 
+    position: relative;
+    top: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.formReturn {
+    width: auto;
+    border-radius: 8px;
+    background-color: #00f3ff;
+    padding: 1rem;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.buttonForm {
+    width: 20%;
+    margin: auto;
+    padding: 1rem;
+    background-color: #00f3ff;
+    border-radius: 4px;
+    border:none;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.buttonForm:hover {
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.8);
+}
+
+.buttonForm a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
