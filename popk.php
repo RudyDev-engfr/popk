@@ -89,7 +89,7 @@
             <div class="infos">
                 <div class="infos1">
                     <h3 class="h3Popk">Horaires</h3>
-                    <i class="fas fa-clock"></i>
+                    <i class="fas fa-clock iPopk "></i>
                     <p class="hours pPok1">Ouvert du mardi au samedi </br>De 15h à minuit</p>
                 </div>
                 <div class="infos2">
