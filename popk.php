@@ -3,15 +3,13 @@
 <head>
   <meta charset="utf-8">
   <title>Contact</title>
-  <link rel="stylesheet" href="css/popk.css">
-  <link rel="stylesheet" href="css/menu.css">
-  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="scss/style.scss">git
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/d93dff7d82.js"></script> 
 </head>
 <body>
     <?php include "_header.php"; ?>
-    <section class="bodyPopk">
+    <main class="bodyPopk">
         <div class="backgroundPopk">
             <img src="images/gaming1.jpg" alt="deux garçons assis avec des écrans et des consoles">
             <h1 class="titlePopk">Le PopK</h1>
@@ -52,7 +50,7 @@
                 </form>
             </div>
         </div>
-    </section>
+    </main>
     <?php include "_footer.php"; ?>
     <script src="js/jquery-3.5.1.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
