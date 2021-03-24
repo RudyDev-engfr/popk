@@ -1,0 +1,12 @@
+@import url("style-font.css");
+
+
+h1{
+    font-family: SansitaSwashed-Regular;
+    font-size: 48px;
+}
+
+section{
+    font-family: Roboto;
+}
+
