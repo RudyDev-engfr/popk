@@ -21,7 +21,7 @@
                     <li><a href="popk.php#ancrePop2">Contactez-nous<i class="fas fa-address-book"></i></a></li>
                 </ul>
             </li>
-            <li><a href="carte.php">Carte<i class="fas fa-mug-hot"></i></a></li>
+            <li><a href="carte.php">PopKarte<i class="fas fa-mug-hot"></i></a></li>
             <li>
                 <a href="#!">Events<i class="fas fa-calendar-alt"></i></a>
                 <ul class="nav-dropdown">

@@ -18,6 +18,7 @@
     include("_home.php");
     include("_footer.php");
     ?>
+    <script src="./JS/jquery-3.5.1.js"></script>
     <script src="js/app.js"></script>
 </body>
 

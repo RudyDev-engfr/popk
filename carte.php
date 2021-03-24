@@ -19,7 +19,7 @@
 
             <a href="#cocktail_a"><img src="images/cocktailrose.png" alt="Cocktail avec alcool" /></a>
             <a href="#cocktail_a"><h2>Alcool</h2></a>
-            </div>
+            index  </div>
         </section>
         <section id="intro-cocktail">
             <p>Le popK vous propose un choix unique de coktail avec & sans alcool ! 
