@@ -8,10 +8,12 @@
     <title>La carte</title>
 </head>
 <body>
-    <main id="carte_popk">
+    <main>
         <section id="landing">
             <div id="hero-bar">
                 <h1>La PopKarte </h1>
+            </div>
+            <div id="img-landing">
             </div>
             <section id="intro-cocktail">
                 <p>Le popK vous propose un choix unique de coktail avec & sans alcool ! 
@@ -57,6 +59,7 @@
                     </ul>
                 </div>
             </article>
+            
             <article class="left-card">
                 <img src="images/nunu-complete.png" alt="Cocktail Nunu " class="first-color" />
                 <div class="card-left">
