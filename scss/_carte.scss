@@ -12,7 +12,7 @@ h2{
 p {
     font-family: "Roboto", sans-serif;
     font-size: 1.2rem;
-    text-align: center  ;
+    text-align: center;
     padding: 5px;
 }
 h3 {
@@ -39,7 +39,7 @@ img {
 #landing img{
     width: 50%;
 }
-#landing :nth-child(2){
+#landing:nth-child(2){
     width: 30%;
 }
 #hero-bar{
@@ -58,7 +58,9 @@ a{
 #intro-cocktail{
     display: flex;
     justify-content: center;
+    color: black;
     height: 250px;
+    margin-bottom: 100px;
     width: 100%;
     clip-path: polygon(0 6%, 100% 0%, 100% 100%, 0 94%);
     background: linear-gradient(90deg, rgba(5,0,82,1) 0%, rgba(9,9,121,1) 21%, rgba(0,212,255,1) 100%);
@@ -132,15 +134,18 @@ ul li{
     transform: rotate(-4deg) skew(-5deg, 0);
 }
 
-@media only screen and (min-width:767px){
+@media only screen and (min-width: 767px){
 
 #intro-cocktail{
     display:flex;
     align-items: center;
-    box-shadow: 18px -16px #050052 ;
+    box-shadow: 18px -16px #050052;
     clip-path: none;
     width: 70%;
-    margin: 0 auto;
+    margin: 100px auto;
+}
+#landing img{
+    width: 100%;
 }
 img{
     width: 35%;
@@ -174,10 +179,14 @@ img{
     display: flex;
     align-items: center;
     height: 400px;
-    background-image: url(../images/neopen.jpg);
 }
-h1{
-    color: white;
+#responsive_cocktail h2{
+    position: relative;
+    top: 210px;
+    right: 130px;
+}
+#img-landing{
+    background-image: url(../images/neon-bar.jpg);
 }
 }
 

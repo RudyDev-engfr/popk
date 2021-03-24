@@ -51,7 +51,7 @@ img {
   width: 50%;
 }
 
-#landing :nth-child(2) {
+#landing:nth-child(2) {
   width: 30%;
 }
 
@@ -69,10 +69,7 @@ img {
 
 a {
   text-decoration: none;
-}
-
-a:visited {
-  color: #090979;
+  color: #ff7fda;
 }
 
 #intro-cocktail {
@@ -82,7 +79,9 @@ a:visited {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  color: black;
   height: 250px;
+  margin-bottom: 100px;
   width: 100%;
   -webkit-clip-path: polygon(0 6%, 100% 0%, 100% 100%, 0 94%);
           clip-path: polygon(0 6%, 100% 0%, 100% 100%, 0 94%);
@@ -195,6 +194,15 @@ ul li {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-shadow: 18px -16px #050052;
+            box-shadow: 18px -16px #050052;
+    -webkit-clip-path: none;
+            clip-path: none;
+    width: 70%;
+    margin: 100px auto;
+  }
+  #landing img {
+    width: 100%;
   }
   img {
     width: 35%;
@@ -238,6 +246,23 @@ ul li {
             align-items: center;
     margin-top: 40px 0px;
     width: 100%;
+  }
+  #responsive_cocktail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 400px;
+  }
+  #responsive_cocktail h2 {
+    position: relative;
+    top: 210px;
+    right: 130px;
+  }
+  #img-landing {
+    background-image: url(../images/neon-bar.jpg);
   }
 }
 /*# sourceMappingURL=style.css.map */
