@@ -1,6 +1,6 @@
 /* livre d'or */
 .bodyLivre {
-  height: 1240px;
+  height: 1950px;
 }
 
 .elementsLivre {
@@ -53,10 +53,106 @@
   cursor: pointer;
 }
 
+.form2 {
+  margin-top: 100px;
+}
+
+.button2 {
+  margin-top: 50px;
+}
+
+.button2 i {
+  color: #00f3ff;
+}
+
+.comment {
+  height: 600px;
+}
+
+.listComment {
+  height: 400px;
+  width: 80%;
+  margin: auto;
+  position: relative;
+  top: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cardComment {
+  height: 300px;
+  width: 30%;
+  background: #050052;
+  background: -webkit-gradient(linear, left top, right top, from(#050052), color-stop(21%, #090979), to(#00d4ff));
+  background: linear-gradient(90deg, #050052 0%, #090979 21%, #00d4ff 100%);
+  border-radius: 8px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.cardName {
+  background-color: #00f3ff;
+  width: 100%;
+  height: 40%;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 84%);
+          clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 84%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cardImage {
+  height: 5rem;
+  width: 5rem;
+  background-color: green;
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cardImage img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 1;
+  position: relative;
+}
+
+.cardContent {
+  margin: auto;
+  width: 90%;
+  height: 50%;
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 @media only screen and (max-width: 767px) {
-  .bodyLivre {
-    height: 1260px;
-  }
   .rating {
     margin: auto;
   }

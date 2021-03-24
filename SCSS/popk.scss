@@ -1,7 +1,7 @@
 /* popk */
 
 .bodyPopk {
-    height: 1800px;
+    height: 1850px;
     width: 100%;
 }
 
@@ -13,7 +13,6 @@
     clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
     text-align: center;
     display: flex;
-
 }
 
 img {
@@ -38,7 +37,7 @@ img {
 
 .presentation {
     margin: auto;
-    height: 14rem;
+    height: 16rem;
     width: 80%;
     background: rgb(5,0,82);
     background: linear-gradient(90deg, rgba(5,0,82,1) 0%, rgba(9,9,121,1) 21%, rgba(0,212,255,1) 100%);
@@ -124,7 +123,7 @@ iframe {
 
 .formulary {
     width: 80%;
-    height:550px;
+    height:625px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -165,7 +164,7 @@ textarea {
 }
 
 .send {
-    width: 15%;
+    width: 25%;
     height: 20%;
     margin-top: 15px;
     padding: 0;

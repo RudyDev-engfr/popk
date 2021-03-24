@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="fr">
 <head>
@@ -21,12 +22,14 @@
                 <p>Laisse donc un message sur le <b>livre d'or</b> du plus pop des cyber-café !</p>
                 <button><a href="livreor.php#ancrePop3"><i class="fas fa-arrow-circle-down"></i></a></button>
             </div>
-            <div class="cut"></div>
-            <div class="formulary" id="ancrePop3">
+            <div class="cut" id="ancrePop3"></div>
+            <div class="formulary">
                 <h3 class="titleForm">Dis-nous tout</h3>
-                <form action="" method="get" class="form-example">
+                <form action="" method="get" class="form2">
                     <label for="name">Ton nom : </label>
                     <input type="text" name="name" id="name" placeholder="Eric Cartman">
+                    <label for="message">Ton message : </label>
+                    <textarea placeholder="Je vous emmerde et je rentre à ma maison"></textarea>
                     <label for="rating">Ta note : </label>
                     <div class="rating">
                         <a href="#1" title="5 étoiles">☆</a>
@@ -35,10 +38,48 @@
                         <a href="#4" title="2 étoiles">☆</a>
                         <a href="#5" title="1 étoile">☆</a>
                     </div>
-                    <label for="message">Ton message : </label>
-                    <textarea placeholder="Je vous emmerde et je rentre à ma maison"></textarea>
                     <input class="send" type="submit" value="Envoyer">
                 </form>
+                <button class="button2"><a href="livreor.php#ancrePop4"><i class="fas fa-arrow-circle-down"></i></a></button>
+            </div>
+            <div class="cut"></div>
+            <div class="comment">
+                <h3 class="titleForm" id="ancrePop4">Ils ont donné leur avis</h3>
+                <div class="listComment">
+                    <div class="cardComment">
+                        <div class="cardName">
+                            <div class="cardImage">
+                                <img src="images/guy1.jpg" alt="images d'un homme masqué">
+                            </div>
+                        </div>
+                        <div class="cardContent">
+                            <p>Name</p>
+                            <p>"Dope dope dope dope dope dope dope dope dope"</p>
+                        </div>
+                    </div>
+                    <div class="cardComment">
+                        <div class="cardName">
+                            <div class="cardImage">
+                                <img src="images/guy1.jpg" alt="images d'un homme masqué">
+                            </div>
+                        </div>
+                        <div class="cardContent">
+                            <p>Name</p>
+                            <p>"Dope dope dope dope dope dope dope dope dope"</p>
+                        </div>
+                    </div>
+                    <div class="cardComment">
+                        <div class="cardName">
+                            <div class="cardImage">
+                                <img src="images/guy1.jpg" alt="images d'un homme masqué">
+                            </div>
+                        </div>
+                        <div class="cardContent">
+                            <p>Name</p>
+                            <p>"Dope dope dope dope dope dope dope dope dope"</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>

@@ -1,6 +1,6 @@
 /* popk */
 .bodyPopk {
-  height: 1800px;
+  height: 1850px;
   width: 100%;
 }
 
@@ -40,7 +40,7 @@ img {
 
 .presentation {
   margin: auto;
-  height: 14rem;
+  height: 16rem;
   width: 80%;
   background: #050052;
   background: -webkit-gradient(linear, left top, right top, from(#050052), color-stop(21%, #090979), to(#00d4ff));
@@ -143,7 +143,7 @@ iframe {
 
 .formulary {
   width: 80%;
-  height: 550px;
+  height: 600px;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -196,7 +196,7 @@ textarea {
 }
 
 .send {
-  width: 15%;
+  width: 25%;
   height: 20%;
   margin-top: 15px;
   padding: 0;
