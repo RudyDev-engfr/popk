@@ -1,4 +1,3 @@
-
 <header id="navbar">
     <div class="brand">
         <div class="nav-hours">
@@ -34,3 +33,4 @@
         </ul>
     </nav>
 </header>
+

@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="fr">
 <head>
@@ -87,4 +86,3 @@
     <script src="js/jquery-3.5.1.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
 </body>
-</html>

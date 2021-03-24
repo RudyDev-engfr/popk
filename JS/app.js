@@ -14,5 +14,4 @@
     });
     $('#nav-mobile').click(function() {
       $('nav ul').toggle();
-    });
-  })(jQuery);
+    })(jQuery);

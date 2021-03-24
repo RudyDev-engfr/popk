@@ -1,9 +1,12 @@
+
 @import 'header.scss';
 @import 'footer.scss';
 @import 'popk.scss';
 @import 'livreor.scss';
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sansita+Swashed&display=swap');
-
+@import "carte";
+@import "roomcard";
+@import '_index.scss';
 
 
 * {
@@ -19,3 +22,4 @@ body {
     width: 100%;
     background-color: black;
 }
+
