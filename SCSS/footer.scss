@@ -1,0 +1,67 @@
+/* footer */
+
+footer {
+    height: 66px;
+    width: 100%;
+    background-color: grey;
+    display: inline-flex;
+    justify-content: space-between;
+    position: relative;
+    bottom:0;
+    background: rgb(5,0,82);
+    background: linear-gradient(90deg, rgba(5,0,82,1) 0%, rgba(9,9,121,1) 21%, rgba(0,212,255,1) 100%);
+    z-index: 1;
+    box-shadow: 50px 16px 16px rgba(255,255,255,1);
+}
+
+.links {
+    width:30%;
+    height:100%;
+    display: inline-flex;
+    justify-content: space-around;
+    text-align:center;
+}
+
+.links a {
+    width:15%;
+    margin: auto;
+    color: white;
+    font-size: 1.6rem;
+    padding-right: 1.4rem;
+}
+
+.logoFooter {
+    width:40%;
+    height:100%;
+    line-height: 66px;
+    margin:auto;
+    text-align:center;
+    background-color: rgb(0,243,255);
+    clip-path: polygon(20% 0, 100% 0, 83% 100%, 0% 100%);
+}
+
+.logoFooter a {
+    text-decoration: none;
+    color: black;
+}
+
+.links a:hover, .logoFooter a:hover, .linksContact a:hover {
+    color: rgb(255,127,218);
+    transition: 0.3s ease-in-out;
+}
+
+.linksContact {
+    width:30%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.linksContact a {
+    width: 15%;
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+}

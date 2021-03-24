@@ -1,0 +1,62 @@
+/* livre d'or */
+
+.bodyLivre {
+    height: 1240px;
+}
+
+.elementsLivre {
+    text-align: center;
+}
+
+.presentation p {
+    position: relative;
+    top: 15px;
+}
+
+.elementsLivre button {
+    margin: auto;
+    width:auto;
+    border-radius: 45px;
+    background-color: transparent;
+}
+
+
+.elementsLivre i {
+    font-size: 2rem;
+    color: black;
+}
+
+.elementsLivre i:hover {
+    color: white;
+}
+
+.rating {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    background:white;
+    border: 1px solid rgb(133, 133, 133);
+    width: 60%;
+}
+
+.rating a {
+    margin: auto;
+    color: #aaa;
+    text-decoration: none;
+    font-size: 2em;
+ }
+ 
+.rating a:hover, .rating a:focus, .rating a:hover ~ a, .rating a:focus ~ a {
+    color: #00f3ff;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:767px) {
+
+    .bodyLivre {
+        height:1260px;
+    }
+    .rating {
+        margin: auto;
+    }
+
+}
