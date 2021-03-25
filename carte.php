@@ -8,6 +8,7 @@
     <title>La carte</title>
 </head>
 <body id="body_carte">
+    <?php include "_header.php"; ?> 
     <main>
         <section id="landing">
             <div id="hero-bar">
@@ -111,5 +112,8 @@
             </article>
         </section>
     </main>
+    <?php include "_footer.php"; ?> 
+    <script src="js/jquery-3.5.1.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>

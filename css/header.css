@@ -29,6 +29,11 @@ header {
   z-index: 50;
 }
 
+img.imgLogo {
+  width: 64px;
+  height: auto;
+}
+
 .brand {
   width: 25%;
   height: 100%;
