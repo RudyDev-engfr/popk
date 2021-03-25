@@ -12,7 +12,7 @@
     <script src="https://kit.fontawesome.com/d93dff7d82.js"></script> 
 </head>
 
-<body>
+<body class="index">
     <?php
     include("_header.php");
     include("_home.php");
