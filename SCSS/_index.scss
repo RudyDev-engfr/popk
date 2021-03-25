@@ -10,6 +10,7 @@ $thirdColor:#00f3ff;
 $lightColor:#EEE;
 $blackColor:#333;
 
+/*
 *{
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
@@ -17,22 +18,22 @@ $blackColor:#333;
     padding: 0;
     box-sizing: content-box;
 }
-
+*/
 /*
     fichier style.css
 */
 
-h1,h2,h3{
+h1.index,h2.index,h3.index{
     text-align: center;
     width: 100%;    
 }
 
-h1{
+h1.index{
     font-family: 'Sansita Swashed', cursive;
     font-size: 64px;
 }
 
-h2 {    
+h2.index {    
     font-size:48px;
     font-family: 'Sansita Swashed';
     color: $thirdColor;
@@ -40,7 +41,7 @@ h2 {
     margin: 10px 0pX;   
 }
 
-h3{
+h3.index{
     font-family: 'Roboto', sans-serif;
     font-size:24px;
 }
@@ -50,20 +51,19 @@ h3{
     text-shadow: 5px 5px 5px $secondaryColor;  
 }
 
-p{
+p.index{
     font-size: 12px;
 }
 
-body{
+body.index{
     background: rgb(0,243,255);
     background: linear-gradient(90deg, rgba(0,243,255,1) 0%, rgba(5,0,82,1) 35%, rgba(255,127,218,1) 100%); 
 }
 
-main{
+main.index{
     width: 100vw;
     max-width: 1024px;
     margin:auto;
-    
 }
 
 section.sectIndex{
@@ -141,16 +141,16 @@ section.sectIndex{
     flex:2;    
 }
 
-ul{
+ul.listEvents{
     margin:auto 5%;
 }
 
-li{
+li.listEvents{
     list-style: none;
     margin: 10px 5px;
 }
 
-span{
+span.listEvents{
     background-color: $lightColor;
     font-family: 'Sansita Swashed', cursive;
     font-size: 1.2rem;
@@ -162,7 +162,8 @@ span{
 }
 
 .serviceLogo{
-    width: 15vh
+    width: 15vh;
+    border-radius:50%;
 }
 
 /*
@@ -188,7 +189,6 @@ article.feedback{
     max-width: 320px;
 }
 
-
 .cartImgTop{
     height: 30%;
     width: 100%;
@@ -197,7 +197,6 @@ article.feedback{
     background-size: cover;
     position: relative;   
 }  
-
 
 .cartImgTop img{
     top: 100%;
@@ -245,14 +244,15 @@ article.feedback{
 
 @media screen and (max-width:760px){
 
-    h2{
+    h2.index{
         font-size:1.2rem;  
     }
 
     .serviceLogo{
         width: 10vh
     }
-    h3{
+
+    h3.index{
         font-size: 1rem;
         margin: 10px auto;
     }
