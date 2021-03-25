@@ -4,6 +4,7 @@
 
 #body_carte h1, h3{
     font-family: "SansitaSwashed-Regular", cursive;
+    align-self: flex-start;
 
 }
 #body_carte h2{
@@ -14,11 +15,13 @@
     font-size: 1.2rem;
     text-align: center;
     padding: 5px;
+    margin: auto;
 }
 #body_carte h3 {
     text-align: center;
     font-size: 2.3rem;
 }
+
 
 /* body */
 #body_carte{
@@ -50,13 +53,17 @@
 #hero-bar{
     width: 100%;
     height: 201px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     color: black;
     font-size: 2rem;
     clip-path: polygon(100% 0, 100% 76%, 0 100%, 0 0);
     background: linear-gradient(90deg, rgba(5,0,82,1) 0%, rgba(9,9,121,1) 21%, rgba(0,212,255,1) 100%);
 }
-#body_carte a{
+#responsive_cocktail a{
     text-decoration: none;
     color: #ff7fda;
 }
@@ -73,6 +80,7 @@
 .card-right, .card-left{
     display: flex;
     flex-direction: column;
+    
 }
 .card-right{
     clip-path: polygon(0 6%, 100% 0%, 100% 100%, 0 94%);
@@ -82,12 +90,12 @@
     clip-path: polygon(0 0, 100% 6%, 100% 94%, 0 100%);
     background: linear-gradient(90deg, rgba(5,0,82,1) 0%, rgba(9,9,121,1) 21%, rgba(0,212,255,1) 100%);
 }
-#body_carte ul{
+.list_cocktail{
     display: flex;
     flex-flow: wrap;
     width: 90%;
 }
-#body_carte ul li{
+.list_cocktail li{
     color: #ff7fda;
     font-weight: 700;
     font-size: 1.1rem;;
@@ -139,6 +147,7 @@
     transform: rotate(-4deg) skew(-5deg, 0);
 }
 
+
 @media only screen and (min-width: 767px){
 
 #intro-cocktail{
@@ -161,6 +170,7 @@
 .card-left{
     margin-left: 50px;
     width: 70%;
+    align-items: center;
     clip-path: none;
     box-shadow: 18px -16px #050052;
 }
@@ -174,6 +184,7 @@
 .card-right{
     margin-right: 50px;
     width: 70%;
+    align-items: center;
     clip-path: none;
     box-shadow: -16px 18px #050052;
 }

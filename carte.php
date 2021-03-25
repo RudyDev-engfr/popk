@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/d93dff7d82.js"></script> 
     <title>La carte</title>
 </head>
 <body id="body_carte">
-    <?php include "_header.php"; ?> 
-    <main>
+    <?php include "_header.php"; ?>  
+    <main id="main-carte">  
         <section id="landing">
             <div id="hero-bar">
                 <h1>La PopKarte </h1>
@@ -34,7 +36,7 @@
                 <div class="card-left">
                     <h3 class="first-blood">First blood</h3>
                     <p>Toute la joie d'effectuer le first kill, dans un verre !</p>
-                    <ul>
+                    <ul class="list_cocktail">
                         <li>Vodka</li>
                         <li>Sirop d'orgeat</li>
                         <li>Jus de framboise</li>
@@ -49,7 +51,7 @@
                 <h3 class="garrosh">Garrosh</h3>
                     <p>Soutiens ton clan en buvant le breuvage officiel du célèbre seigneur de guerre.
                     Pour la Horde !!!</p>
-                    <ul>
+                    <ul class="list_cocktail">
                         <li>Vodka</li>
                         <li>Citron pressé</li>
                         <li>Sirop de mangue</li>
@@ -62,7 +64,7 @@
                 <div class="card-left">
                     <h3 class="nunu">Nunu</h3>
                     <p>La fusion entre un pâtissier et un pilier de comptoir irlandais.</p>
-                    <ul>
+                    <ul class="list_cocktail">
                         <li>Scotch</li>
                         <li>crème</li>
                         <li>Sirop de vanille</li>
@@ -77,9 +79,9 @@
                 <div class="card-right">
                     <h3 class="smite">Smite</h3>
                     <p>Punis ta soif avec une boisson pleine d’énergie mystique.</p>
-                    <ul>
+                    <ul class="list_cocktail">
                         <li>Jus d'ananas</li>
-                    <li>Jus de pomme</li>
+                        <li>Jus de pomme</li>
                         <li>Sirop de vanille</li>
                         <li>Canelle</li>
                     </ul>
@@ -90,7 +92,7 @@
                 <div class="card-left">
                     <h3 class="lili">Lili</h3>
                     <p>Dites oui à un moment de douceur dans ce monde de brutes.</p>
-                    <ul>
+                    <ul class="list_cocktail">
                         <li>Crème</li>
                         <li>Jus de fraise</li>
                         <li>Sirop de vanille</li>
@@ -102,7 +104,7 @@
                     <div class="card-right">
                         <h3 class="prodigy">Prodigy ice-tea</h3>
                         <p>Un mélange où thé et fruits s'associent pour donner naissance au rafraîchissement ultime.</p>
-                        <ul>
+                        <ul class="list_cocktail">
                             <li>Jus de pomme</li>
                             <li>Thé glacé</li>
                             <li>Sirop de cassis</li>
