@@ -57,8 +57,7 @@
             <button class="buttonForm"><a href="index.php">Retourner à l'accueil</a></button>
         </div>
     </main>
-    <?php include "_footer.php"; ?> 
-    <script src="js/jquery-3.5.1.js"></script>
-	<script type="text/javascript" src="js/app.js"></script>
+    <?php include "_footer.php" ?>
+    <?php include "script.php" ?>
 </body>
 </html>

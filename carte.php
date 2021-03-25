@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -112,8 +112,7 @@
             </article>
         </section>
     </main>
-    <?php include "_footer.php"; ?> 
-    <script src="./JS/jquery-3.5.1.js"></script>
-    <script type="text/javascript" src="./JS/app.js"></script>
+    <?php include "_footer.php" ?>
+    <?php include "script.php" ?>
 </body>
 </html>

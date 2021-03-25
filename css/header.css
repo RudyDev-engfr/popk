@@ -215,7 +215,7 @@ header {
   top: 0;
   height: 66px;
   width: 100%;
-  background: #050052;
+  background: var(--darkblue);
   background: -webkit-gradient(linear, left top, right top, from(#050052), color-stop(21%, #090979), to(#00d4ff));
   background: linear-gradient(90deg, #050052 0%, #090979 21%, #00d4ff 100%);
   -webkit-box-shadow: 1px 4px 6px rgba(255, 255, 255, 0.2);
@@ -244,7 +244,7 @@ header {
   text-align: center;
   -webkit-clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
           clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
-  background: #050052;
+  background: var(--darkblue);
   background: -webkit-gradient(linear, left top, right top, color-stop(21%, #090979), to(#00d4ff));
   background: linear-gradient(90deg, #090979 21%, #00d4ff 100%);
   color: black;
