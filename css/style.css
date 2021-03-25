@@ -1380,6 +1380,13 @@ h1.index, h2.index, h3.index {
 h1.index {
   font-family: 'Sansita Swashed', cursive;
   font-size: 64px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-shadow: #050052 2px 2px 2px, #050052 -2px 2px 2px, #050052 -2px -2px 2px, #050052 2px -2px 2px;
+  color: #ff7fda;
 }
 
 h2.index {
@@ -1422,14 +1429,14 @@ section.sectIndex {
   display: -ms-flexbox;
   display: flex;
   color: #FFF;
-  height: 100vh;
+  height: 80vh;
   padding: 10px;
 }
 
 /* Slide / video */
 #idVideo {
-  height: 45vh;
   margin: 70px;
+  position: relative;
 }
 
 /*
@@ -1587,7 +1594,6 @@ article.feedback {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  background-color: red;
   width: 100px;
   height: 100px;
   border-radius: 50%;
