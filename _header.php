@@ -9,7 +9,7 @@
         </div>
     </div>
     <div id="nav-mobile">
-        <i class="fas fa-bars iFooter"></i>
+        <i class="fas fa-bars i"></i>
     </div>
     <nav>
         <ul class="nav-list">

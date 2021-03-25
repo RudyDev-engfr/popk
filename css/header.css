@@ -57,7 +57,7 @@ header {
   font-size: 0.9rem;
 }
 
-.nav-hours .iFooter {
+.nav-hours i {
   font-size: 1rem;
   padding-right: 0.6rem;
 }
@@ -93,12 +93,12 @@ header {
   cursor: pointer;
 }
 
-#nav-mobile .iFooter {
+#nav-mobile i {
   font-size: 1.8rem;
   padding-top: 1.2rem;
 }
 
-#nav-mobile .iFooter:hover {
+#nav-mobile i:hover {
   color: #ff7fda;
 }
 
@@ -149,7 +149,7 @@ nav .nav-list .liMenu .nav-dropdown .liMenu2 .aMenu {
 .nav-dropdown .liMenu2 .aMenu i {
   float: left;
   position: relative;
-  top: 5px;
+  bottom: 50px;
 }
 
 .nav-dropdown {
@@ -191,7 +191,7 @@ nav .nav-list .liMenu .nav-dropdown .liMenu2 .aMenu {
     background-color: #050052;
     border-bottom: 1px solid black;
   }
-  nav .nav-list .liMenu .aMenu .iFooter {
+  nav .nav-list .liMenu .aMenu i {
     font-size: 1.4rem;
     top: 0;
     left: 100px;
@@ -203,201 +203,7 @@ nav .nav-list .liMenu .nav-dropdown .liMenu2 .aMenu {
   .nav-dropdown {
     position: static;
   }
-  .nav-dropdown .liMenu2 .aMenu .iFooter {
-    position: relative;
-    top: 0;
-  }
-}
-
-/* menu */
-header {
-  position: fixed;
-  top: 0;
-  height: 66px;
-  width: 100%;
-  background: #050052;
-  background: -webkit-gradient(linear, left top, right top, from(#050052), color-stop(21%, #090979), to(#00d4ff));
-  background: linear-gradient(90deg, #050052 0%, #090979 21%, #00d4ff 100%);
-  -webkit-box-shadow: 1px 4px 6px rgba(255, 255, 255, 0.2);
-          box-shadow: 1px 4px 6px rgba(255, 255, 255, 0.2);
-  z-index: 50;
-}
-
-.brand {
-  width: 25%;
-  height: 100%;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-clip-path: polygon(0 0, 100% 0, 96% 100%, 0% 100%);
-          clip-path: polygon(0 0, 100% 0, 96% 100%, 0% 100%);
-  background-color: #00f3ff;
-}
-
-.nav-hours {
-  display: none;
-  width: 40%;
-  height: 100%;
-  line-height: 33px;
-  position: relative;
-  left: 0;
-  text-align: center;
-  -webkit-clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
-          clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
-  background: #050052;
-  background: -webkit-gradient(linear, left top, right top, color-stop(21%, #090979), to(#00d4ff));
-  background: linear-gradient(90deg, #090979 21%, #00d4ff 100%);
-  color: black;
-  font-size: 0.9rem;
-}
-
-.nav-hours i {
-  font-size: 1rem;
-  padding-right: 0.6rem;
-}
-
-.logo {
-  float: left;
-  line-height: 70px;
-  font-size: 1.4em;
-  width: 100%;
-  text-align: center;
-  line-height: 66px;
-  background-color: rgba(0, 243, 255, 0.8);
-}
-
-.logo a {
-  text-decoration: none;
-  color: black;
-}
-
-.logo a:hover {
-  color: #ff7fda;
-}
-
-#nav-mobile {
-  display: none;
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 66px;
-  width: 66px;
-  line-height: 66px;
-  text-align: center;
-  cursor: pointer;
-}
-
-#nav-mobile i {
-  font-size: 1.8rem;
-  padding-top: 1.2rem;
-}
-
-#nav-mobile i:hover {
-  color: #ff7fda;
-}
-
-nav {
-  float: right;
-}
-
-nav ul li {
-  list-style: none;
-  float: left;
-  position: relative;
-  width: 11rem;
-}
-
-nav ul li a {
-  display: block;
-  padding: 0 10px;
-  line-height: 66px;
-  color: white;
-  text-decoration: none;
-  text-align: center;
-}
-
-nav ul li a:hover {
-  background-color: #ff7fda;
-  color: black;
-}
-
-nav ul li a:not(:only-child):after {
-  content: ' ▾';
-}
-
-nav ul li a i {
-  float: left;
-  position: relative;
-  top: 25px;
-  padding-left: 0px;
-}
-
-nav ul li ul li a {
-  padding: 15px;
-  line-height: 25px;
-  background-color: #00f3ff;
-  color: black;
-  display: block;
-}
-
-.nav-dropdown li a i {
-  float: left;
-  position: relative;
-  top: 5px;
-}
-
-.nav-dropdown {
-  display: none;
-  position: absolute;
-  -webkit-box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
-          box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
-}
-
-/* menu responsive */
-@media only screen and (max-width: 991px) {
-  .brand {
-    width: 85%;
-  }
-  .nav-hours {
-    display: block;
-  }
-  .logo {
-    width: 60%;
-  }
-  .logo a {
-    padding-right: 2rem;
-  }
-  nav ul {
-    display: none;
-  }
-  #nav-mobile {
-    display: block;
-  }
-  nav {
-    width: 100%;
-  }
-  nav ul li {
-    width: 100%;
-  }
-  nav ul li a {
-    padding: 3.8rem 1rem;
-    line-height: 20px;
-    background-color: #050052;
-    border-bottom: 1px solid black;
-  }
-  nav ul li a i {
-    font-size: 1.4rem;
-    top: 0;
-    left: 100px;
-    padding-right: 0;
-  }
-  nav ul li ul li a {
-    padding-left: 1rem;
-  }
-  .nav-dropdown {
-    position: static;
-  }
-  .nav-dropdown li a i {
+  .nav-dropdown .liMenu2 .aMenu i {
     position: relative;
     top: 0;
   }
