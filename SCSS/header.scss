@@ -50,7 +50,7 @@ body {
     font-size: 0.9rem;
   }
   
-  .nav-hours i {
+  .nav-hours .iFooter {
     font-size: 1rem;
     padding-right: 0.6rem;
   }
@@ -125,7 +125,7 @@ body {
     content: ' ▾'; 
   }
   
-  nav .nav-list .liMenu .aMenu i {
+  nav .nav-list .liMenu .aMenu .iFooter {
     float: left;
     position: relative;
     top: 25px;
@@ -133,19 +133,20 @@ body {
   }
   
   nav .nav-list .liMenu .nav-dropdown .liMenu2 .aMenu {
-    padding: 15px;
+    padding: 5px;
     line-height: 25px;
     background-color: rgb(0,243,255);
     color: black; 
     display: block;
   }
   
-  .nav-dropdown .liMenu2 .aMenu i {
+
+  .nav-dropdown .liMenu2 .aMenu .iDropdown {
     float: left;
     position: relative;
-    bottom:50px;
+    top: 5px;
   }
-  
+
   .nav-dropdown {
     display: none;
     position: absolute;
@@ -185,7 +186,7 @@ body {
       background-color: rgb(5,0,82);
       border-bottom:1px solid black; 
     }
-    nav .nav-list .liMenu .aMenu i {
+    nav .nav-list .liMenu .aMenu .iFooter {
       font-size: 1.4rem;
       top: 0;
       left: 100px;
@@ -197,7 +198,7 @@ body {
     .nav-dropdown {
       position: static; 
     } 
-    .nav-dropdown .liMenu2 .aMenu i {
+    .nav-dropdown .liMenu2 .aMenu .iDropdown {
       position: relative;
       top: 0; 
     }

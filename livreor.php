@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Livre d'or</title>
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./CSS/style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/d93dff7d82.js"></script> 
 </head>
@@ -85,6 +85,7 @@
         </div>
     </main>
     <?php include "_footer.php"; ?>
-    <script src="JS/jquery-3.5.1.js"></script>
-	<script type="text/javascript" src="JS/app.js"></script>
+    <script src="./JS/jquery-3.5.1.js"></script>
+	<script type="text/javascript" src="./JS/app.js"></script>
 </body>
+</html>

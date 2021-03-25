@@ -122,3 +122,4 @@
     <script src="./JS/jquery-3.5.1.js"></script>
     <script type="text/javascript" src="./JS/app.js"></script>
 </body>
+</html>
