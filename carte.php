@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -79,9 +79,9 @@
                 <div class="card-right">
                     <h3 class="smite">Smite</h3>
                     <p>Punis ta soif avec une boisson pleine d’énergie mystique.</p>
-                    <ul>
+                    <ul class="list_cocktail">
                         <li>Jus d'ananas</li>
-                    <li>Jus de pomme</li>
+                        <li>Jus de pomme</li>
                         <li>Sirop de vanille</li>
                         <li>Canelle</li>
                     </ul>
