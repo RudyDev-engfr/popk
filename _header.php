@@ -5,7 +5,7 @@
             <p class="pMenu"><i class="fas fa-clock iFooter"></i>15H30/00H</p>
         </div>
         <div class="logo">
-            <a class="aMenu" href="index.php">Logo</a>
+            <a class="aMenu" href="index.php"><img class="imgLogo" src="images/popk2.png" alt="logo du popk"></a>
         </div>
     </div>
     <div id="nav-mobile">
