@@ -119,6 +119,6 @@
     </main>
     <?php include "_footer.php"; ?>
     <script src="./JS/scriptroomcard.js"></script>
-    <script src="js/jquery-3.5.1.js"></script>
-	<script type="text/javascript" src="js/app.js"></script>
+    <script src="./JS/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="./JS/app.js"></script>
 </body>
