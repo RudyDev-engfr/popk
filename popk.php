@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Contact</title>
-  <link rel="stylesheet" href="scss/style.scss">git
+  <link rel="stylesheet" href="css/style.css">git
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/d93dff7d82.js"></script> 
 </head>
@@ -89,7 +89,7 @@
             <div class="infos">
                 <div class="infos1">
                     <h3 class="h3Popk">Horaires</h3>
-                    <i class="fas fa-clock"></i>
+                    <i class="fas fa-clock iPopk "></i>
                     <p class="hours pPok1">Ouvert du mardi au samedi </br>De 15h à minuit</p>
                 </div>
                 <div class="infos2">

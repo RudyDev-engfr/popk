@@ -29,11 +29,6 @@ header {
   z-index: 50;
 }
 
-img.imgLogo {
-  width: 64px;
-  height: auto;
-}
-
 .brand {
   width: 25%;
   height: 100%;
@@ -62,7 +57,7 @@ img.imgLogo {
   font-size: 0.9rem;
 }
 
-.nav-hours i {
+.nav-hours .iFooter {
   font-size: 1rem;
   padding-right: 0.6rem;
 }
@@ -77,12 +72,12 @@ img.imgLogo {
   background-color: rgba(0, 243, 255, 0.8);
 }
 
-.logo a {
+.logo .aMenu {
   text-decoration: none;
   color: black;
 }
 
-.logo a:hover {
+.logo .aMenu:hover {
   color: #ff7fda;
 }
 
@@ -98,12 +93,12 @@ img.imgLogo {
   cursor: pointer;
 }
 
-#nav-mobile i {
+#nav-mobile .iFooter {
   font-size: 1.8rem;
   padding-top: 1.2rem;
 }
 
-#nav-mobile i:hover {
+#nav-mobile .iFooter:hover {
   color: #ff7fda;
 }
 
@@ -111,14 +106,14 @@ nav {
   float: right;
 }
 
-nav ul li {
+nav .nav-list .liMenu {
   list-style: none;
   float: left;
   position: relative;
   width: 11rem;
 }
 
-nav ul li a {
+nav .nav-list .liMenu .aMenu {
   display: block;
   padding: 0 10px;
   line-height: 66px;
@@ -127,23 +122,23 @@ nav ul li a {
   text-align: center;
 }
 
-nav ul li a:hover {
+nav .nav-list .liMenu .aMenu:hover {
   background-color: #ff7fda;
   color: black;
 }
 
-nav ul li a:not(:only-child):after {
+nav .nav-list .liMenu .aMenu:not(:only-child):after {
   content: ' ▾';
 }
 
-nav ul li a i {
+nav .nav-list .liMenu .aMenu i {
   float: left;
   position: relative;
   top: 25px;
   padding-left: 0px;
 }
 
-nav ul li ul li a {
+nav .nav-list .liMenu .nav-dropdown .liMenu2 .aMenu {
   padding: 15px;
   line-height: 25px;
   background-color: #00f3ff;
@@ -151,7 +146,7 @@ nav ul li ul li a {
   display: block;
 }
 
-.nav-dropdown li a i {
+.nav-dropdown .liMenu2 .aMenu i {
   float: left;
   position: relative;
   top: 5px;
@@ -175,10 +170,10 @@ nav ul li ul li a {
   .logo {
     width: 60%;
   }
-  .logo a {
+  .logo .aMenu {
     padding-right: 2rem;
   }
-  nav ul {
+  nav .nav-list {
     display: none;
   }
   #nav-mobile {
@@ -187,28 +182,28 @@ nav ul li ul li a {
   nav {
     width: 100%;
   }
-  nav ul li {
+  nav .nav-list .liMenu {
     width: 100%;
   }
-  nav ul li a {
+  nav .nav-list .liMenu .aMenu {
     padding: 3.8rem 1rem;
     line-height: 20px;
     background-color: #050052;
     border-bottom: 1px solid black;
   }
-  nav ul li a i {
+  nav .nav-list .liMenu .aMenu .iFooter {
     font-size: 1.4rem;
     top: 0;
     left: 100px;
     padding-right: 0;
   }
-  nav ul li ul li a {
+  .nav-dropdown .liMenu2 .aMenu {
     padding-left: 1rem;
   }
   .nav-dropdown {
     position: static;
   }
-  .nav-dropdown li a i {
+  .nav-dropdown .liMenu2 .aMenu .iFooter {
     position: relative;
     top: 0;
   }

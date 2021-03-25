@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* menu */
   
 
@@ -50,7 +50,7 @@ body {
     font-size: 0.9rem;
   }
   
-  .nav-hours i {
+  .nav-hours .iFooter {
     font-size: 1rem;
     padding-right: 0.6rem;
   }
@@ -66,12 +66,12 @@ body {
     
   }
   
-  .logo a {
+  .logo .aMenu {
     text-decoration: none;
     color: black;
   }
   
-  .logo a:hover{
+  .logo .aMenu:hover{
     color: rgb(255,127,218);
   }
   
@@ -87,12 +87,12 @@ body {
     cursor: pointer;
   }
   
-  #nav-mobile i {
+  #nav-mobile .iFooter {
     font-size: 1.8rem;
     padding-top: 1.2rem;
   }
   
-  #nav-mobile i:hover {
+  #nav-mobile .iFooter:hover {
     color: rgb(255,127,218);
   }
   
@@ -100,14 +100,14 @@ body {
     float: right;
   }
   
-  nav ul li {
+  nav .nav-list .liMenu {
     list-style: none;
     float: left;
     position: relative;
     width: 11rem; 
   }
   
-  nav ul li a {
+  nav .nav-list .liMenu .aMenu {
     display: block;
     padding: 0 10px;
     line-height: 66px;
@@ -116,23 +116,23 @@ body {
     text-align: center;
   }
   
-  nav ul li a:hover {
+  nav .nav-list .liMenu .aMenu:hover {
     background-color: rgb(255,127,218);
     color: black; 
   }
   
-  nav ul li a:not(:only-child):after {
+  nav .nav-list .liMenu .aMenu:not(:only-child):after {
     content: ' ▾'; 
   }
   
-  nav ul li a i {
+  nav .nav-list .liMenu .aMenu i {
     float: left;
     position: relative;
     top: 25px;
     padding-left: 0px;
   }
   
-  nav ul li ul li a {
+  nav .nav-list .liMenu .nav-dropdown .liMenu2 .aMenu {
     padding: 15px;
     line-height: 25px;
     background-color: rgb(0,243,255);
@@ -140,7 +140,7 @@ body {
     display: block;
   }
   
-  .nav-dropdown li a i {
+  .nav-dropdown .liMenu2 .aMenu i {
     float: left;
     position: relative;
     top: 5px; 
@@ -164,10 +164,10 @@ body {
     .logo {
       width: 60%;
     }
-    .logo a {
+    .logo .aMenu {
       padding-right: 2rem;
     }
-    nav ul {
+    nav .nav-list {
       display : none;
     }
     #nav-mobile {
@@ -176,34 +176,34 @@ body {
     nav {
       width: 100%; 
     }
-    nav ul li {
+    nav .nav-list .liMenu {
       width: 100%; 
     }
-    nav ul li a {
+    nav .nav-list .liMenu .aMenu {
       padding: 3.8rem 1rem;
       line-height: 20px;
       background-color: rgb(5,0,82);
       border-bottom:1px solid black; 
     }
-    nav ul li a i {
+    nav .nav-list .liMenu .aMenu .iFooter {
       font-size: 1.4rem;
       top: 0;
       left: 100px;
       padding-right: 0;
     }
-    nav ul li ul li a {
+    .nav-dropdown .liMenu2 .aMenu {
       padding-left: 1rem; 
     }
     .nav-dropdown {
       position: static; 
     } 
-    .nav-dropdown li a i {
+    .nav-dropdown .liMenu2 .aMenu .iFooter {
       position: relative;
       top: 0; 
     }
   
   }
-=======
+
 /* menu */
   
   header {
@@ -398,4 +398,4 @@ body {
     }
   
   }
->>>>>>> 1e39f94ff9268f04526c9d2635d23adcc3e11096
+

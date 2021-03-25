@@ -28,7 +28,7 @@ footer {
   text-align: center;
 }
 
-.links a {
+.links .aFooter {
   width: 15%;
   margin: auto;
   color: white;
@@ -47,12 +47,12 @@ footer {
           clip-path: polygon(20% 0, 100% 0, 83% 100%, 0% 100%);
 }
 
-.logoFooter a {
+.logoFooter .aFooter {
   text-decoration: none;
   color: black;
 }
 
-.links a:hover, .logoFooter a:hover, .linksContact a:hover {
+.links .aFooter:hover, .logoFooter .aFooter:hover, .linksContact .aFooter:hover {
   color: #ff7fda;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
@@ -69,7 +69,7 @@ footer {
   text-align: center;
 }
 
-.linksContact a {
+.linksContact .aFooter {
   width: 15%;
   margin: auto;
   text-decoration: none;

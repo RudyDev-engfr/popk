@@ -123,7 +123,7 @@
   margin-top: 15px;
 }
 
-.infos1 i {
+.infos1 .iPopk {
   font-size: 3rem;
   margin-top: 45px;
 }
@@ -132,7 +132,7 @@ address {
   margin: auto;
 }
 
-.hours i {
+.hours .iPopk {
   font-size: 1.2rem;
   padding-right: 1rem;
 }
