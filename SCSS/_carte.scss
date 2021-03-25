@@ -34,6 +34,7 @@
     display: flex;
     margin: auto;
     width: 70%;
+}
 #landing{
     display: flex;
     flex-direction: column;
@@ -151,7 +152,10 @@
 #landing img{
     width: 100%;
 }
-img{
+#cocktail_a img{
+    width: 35%;
+}
+#cocktail_sa img{
     width: 35%;
 }
 .card-left{
