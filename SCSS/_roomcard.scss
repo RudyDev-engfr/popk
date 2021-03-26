@@ -4,6 +4,10 @@
 :root{
     --blackfont : black;
     --whitefont : white;
+    --darkblue : #050052;
+    --cyan : #00f3ff;
+    --purple : #4a0979;
+    --pink : #ff7fda;
 }
 // body{
 //     background: rgb(74,9,121);
@@ -16,7 +20,7 @@
     font-family: 'Sansita Swashed', cursive;
 }
 
-p, span{
+p, span, li{
     font-family: Roboto, sans-serif;
 }
     .icard{
@@ -24,8 +28,6 @@ p, span{
 }
 
 ul, li{
-    padding: 0;
-    margin: 0;
     list-style: none;
 }
 .center{
@@ -36,8 +38,6 @@ ul, li{
     position: relative;
     display: inline-block;
     width: 100%;
-//     background: rgb(74,9,121);
-//     background: linear-gradient(138deg, rgba(74,9,121,1) 25%, rgba(255,127,218,1) 80%); 
 }
 .roomcard{
     display: flex;
@@ -53,6 +53,7 @@ ul, li{
 .roomcard img{
     max-width: 100%;
     height: auto;
+    border: 3px solid var(--purple);
     z-index: 1;
 }
 
@@ -106,11 +107,11 @@ ul, li{
       }
 
     .closemodal{
-        background: #ff7fda;
+        background: var(--pink);
     }
     
     .reserve{
-        background: #050052;
+        background: var(--darkblue);
     }
 
 //decoration

@@ -3,6 +3,7 @@ const roomText2 = document.querySelector("#roomtext2");
 const roomText3 = document.querySelector("#roomtext3");
 const roomCard = document.querySelectorAll(".roomcard");
 const closeModal = document.querySelectorAll(".closemodal")
+const roomSet = document.querySelector(".roomset")
 
 
     roomCard[0].addEventListener("click",function(){
@@ -38,3 +39,7 @@ const closeModal = document.querySelectorAll(".closemodal")
         closeModal[2].addEventListener("click", function(){
             roomText3.style.display = "none";
         })
+
+    roomSet.style.marginTop = "80px";
+
+
