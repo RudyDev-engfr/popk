@@ -122,14 +122,13 @@ nav .nav-list .liMenu .aMenu {
   display: block;
   padding: 0 10px;
   line-height: 66px;
-  color: white;
+  color: #EEE;
   text-decoration: none;
   text-align: center;
 }
 
 nav .nav-list .liMenu .aMenu:hover {
   background-color: #ff7fda;
-  color: black;
 }
 
 nav .nav-list .liMenu .aMenu:not(:only-child):after {

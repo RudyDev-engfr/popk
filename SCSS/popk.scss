@@ -27,7 +27,7 @@
 
 .titlePopk {
     margin: auto;
-    color: white;
+    color: #EEE;
     font-size: 2.4rem;
     text-shadow: 1px 4px 4px rgba(255,127,218, 0.4);
 }
@@ -41,8 +41,8 @@
     margin: auto;
     height: 16rem;
     width: 80%;
-    background: rgb(5,0,82);
-    background: linear-gradient(90deg, rgba(5,0,82,1) 0%, rgba(9,9,121,1) 21%, rgba(0,212,255,1) 100%);
+    background: #050052;
+    background: linear-gradient(90deg, #050052 0%, #090979 21%, #00d4ff 100%);
     z-index: 5;
     position: relative;
     top: -5px;
@@ -67,7 +67,7 @@
 .cut {
     width:100%;
     height:10px;
-    background-color: rgb(255,127,218);
+    background-color: #ff7fda;
     margin-top: 50px;
 }
 
@@ -83,19 +83,18 @@
 
 }
 
-.infos div {
+.infos .infos1 {
     height: 20rem;
     width:30%;
-    background: rgb(5,0,82);
-    background: linear-gradient(90deg, rgba(5,0,82,1) 0%, rgba(9,9,121,1) 21%, rgba(0,212,255,1) 100%);
+    background: #050052;
+    background: linear-gradient(90deg, #050052 0%, #090979 21%, #00d4ff 100%);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-
-
+    
 }
 
-.infos div:hover {
+.infos .infos1:hover {
     box-shadow: 4px 4px 4px rgba(255,255,255,0.4);
 }
 
@@ -104,16 +103,25 @@
 
 }
 
-.infos1 .iPopk  {
+.h3Popk1 {
+    margin-top:25px;
+}
+
+.phone1 {
+    padding-top: 10px;
+}
+
+.mail1 {
+    position: relative;
+    bottom: 10px;
+}
+
+.iPopk  {
     font-size: 3rem;
-    margin-top: 45px;
+    margin-top: 15px;
 }
 
-address {
-    margin: auto;
-}
-
-.hours .iPopk {
+.iPopk1 {
     font-size: 1.2rem;
     padding-right: 1rem;
 }
@@ -125,7 +133,7 @@ iframe {
 
 .formulary {
     width: 80%;
-    height:625px;
+    height:635px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -135,11 +143,11 @@ iframe {
 .titleForm {
     position: relative;
     top: 55px;
-    color:white;
+    color:#EEE;
 }
 
 .form-example {
-    background-color: rgb(255,127,218);
+    background-color: #ff7fda;
     height: auto;
     width: 80%;
     margin: auto;
@@ -204,7 +212,7 @@ textarea {
         height:800px;
     }
 
-    .infos div {
+    .infos .infos1 {
         height: 30%;
         width:80%;
     }
@@ -212,7 +220,10 @@ textarea {
     .h3Popk {
         margin-top: 5px;
     }
-
+    .h3Popk1 {
+        position:relative;
+        top: 10px;
+    }
     .formulary {
         height: 600px;
     }

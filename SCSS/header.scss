@@ -22,7 +22,6 @@ header {
   height: 66px;
   width: 100%;
   background: #050052;
-  background: -webkit-gradient(linear, left top, right top, from(#050052), color-stop(21%, #090979), to(#00d4ff));
   background: linear-gradient(90deg, #050052 0%, #090979 21%, #00d4ff 100%);
   -webkit-box-shadow: 1px 4px 6px rgba(255, 255, 255, 0.2);
           box-shadow: 1px 4px 6px rgba(255, 255, 255, 0.2);
@@ -37,7 +36,7 @@ header {
   display: inline-flex;
   -webkit-clip-path: polygon(0 0, 100% 0, 96% 100%, 0% 100%);
           clip-path: polygon(0 0, 100% 0, 96% 100%, 0% 100%);
-  background-color: #00f3ff;
+  background-color:#00f3ff;
 }
 
 .nav-hours {
@@ -122,14 +121,13 @@ nav .nav-list .liMenu .aMenu {
   display: block;
   padding: 0 10px;
   line-height: 66px;
-  color: white;
+  color: #EEE;
   text-decoration: none;
   text-align: center;
 }
 
 nav .nav-list .liMenu .aMenu:hover {
   background-color: #ff7fda;
-  color: black;
 }
 
 
@@ -155,7 +153,7 @@ nav .nav-list .liMenu .nav-dropdown .liMenu2 .aMenu {
 }
 
 nav .nav-list .liMenu .nav-dropdown .liMenu2 .aMenu:hover {
-    background-color: #ff7fda;
+    background-color: #ff7fda;;
 }
 
 .nav-dropdown .liMenu2 .aMenu .iDropdown {

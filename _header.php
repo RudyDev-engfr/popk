@@ -23,11 +23,7 @@
             </li>
             <li class="liMenu"><a class="aMenu" href="carte.php">PopKarte<i class="fas fa-mug-hot iFooter"></i></a></li>
             <li class="liMenu">
-                <a class="aMenu" href="#!">Events<i class="fas fa-calendar-alt iFooter"></i></a>
-                <ul class="nav-dropdown">
-                    <li class="liMenu2"><a class="aMenu" href="évènements.php">À venir<i class="fas fa-calendar-check iDropdown"></i></a></li>
-                    <li class="liMenu2"><a class="aMenu" href="évènements.php">Hall of Fame<i class="fas fa-trophy iDropdown"></i></a></li>
-                </ul>
+                <a class="aMenu" href="salles.php">Les salles<i class="fas fa-chess-rook iFooter"></i></a>
             </li>
             <li class="liMenu"><a class="aMenu" href="livreor.php">Livre d'or<i class="fas fa-book iFooter"></i></a></li>
         </ul>

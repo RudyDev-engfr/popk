@@ -3,24 +3,25 @@
             <video width="100%" loop autoplay muted playsinline>
                 <source src="/video/pexels-tima-miroshnichenko-5377270.mp4" type="video/mp4">
             </video>
+            <h1 class="index">PopK</h1>
         </section>
         <section class="sectIndex" id="idService">
-            <article>
+            <article class="animate__animated animate__fadeInTopLeft">
                 <div><img src="/images/esportLogo.png" class="serviceLogo" alt="De l'esport"></div>
                 <div>DE L'ESPORT</div>
                 <p>Dans l'univers du jeu vidéo avec 6 PCs de joueurs et une dixaine de consoles.</p>
             </article>
-            <article>
+            <article class="animate__animated animate__fadeInTopRight">
                 <div><img src="/images/boireLogo.png" class="serviceLogo" alt="A boire"></div>
                 <div>A BOIRE</div>
                 <p>Si vous êtes amateur, pensez à goûter les bières locales qui sont très bonnes et pas très chères</p>
             </article>
-            <article>
+            <article class="animate__animated animate__fadeInBottomLeft">
                 <div><img src="/images/jeuxLogo.png" class="serviceLogo" alt="Jeux"></div>
                 <div>JEUX</div>
                 <p>Détendez-vous ! Avec cette sélection des 12 meilleurs jeux d’ambiance, vous trouverez à coup sûr votre compte.</p>
             </article>
-            <article>
+            <article class="animate__animated animate__fadeInBottomRight">
                 <div><img src="/images/soireeThemeLogo.png" class="serviceLogo" alt="Soirée à thème"></div>
                 <div>SOIREE A THEME</div>
                 <p>Plusieurs soirées à théme musicale sont organisées tout au long de l'année</p>
@@ -53,6 +54,7 @@
                         <p>Ce soir, les meilleurs joueurs du monde entier sur Counter Strike : Global Offensive (CS:GO), Starcraft 2 et Warcraft Reforged (DreamHack WC3) s'affrontent en direct</p>
                     </article>
                 </div>
+            </div>
         </section>
         <section class="sectIndex" id="idFeedback">
             <h2 class="index">Avis Client</h2>
@@ -83,3 +85,13 @@
             </div>
         </section>
     </main>
+    <script type="text/javascript">
+        window.onscroll = function() {
+            console.log("page: "+window.scrollY);
+            console.log("ecran: "+screen.height);
+               if (screen.height<window.scrollY) {
+                    alert("changed");
+               };
+                              
+    };
+    </script>

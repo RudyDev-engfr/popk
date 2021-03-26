@@ -3,6 +3,10 @@
   height: 2000px;
 }
 
+.titleForm2 {
+  margin-top: 10px;
+}
+
 .elementsLivre {
   text-align: center;
 }
@@ -66,7 +70,7 @@
 }
 
 .comment {
-  height: 625px;
+  height: 575px;
 }
 
 .listComment {
@@ -149,6 +153,15 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.feedbackLivre {
+  height: 400px;
+}
+
+.carte2Livre {
+  position: relative;
+  top: 100px;
 }
 
 @media only screen and (max-width: 767px) {

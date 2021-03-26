@@ -23,7 +23,7 @@
             </div>
             <div class="cut" id="ancrePop3"></div>
             <div class="formulary">
-                <h3 class="titleForm">Dis-nous tout</h3>
+                <h3 class="titleForm titleForm2">Dis-nous tout</h3>
                 <form action="form.php" method="POST" class="form-example form2">
                     <label for="name">Ton nom : </label>
                     <input type="text" name="name" id="name" placeholder="Eric Cartman">
@@ -46,41 +46,38 @@
             <div class="cut"></div>
             <div class="comment">
                 <h3 class="titleForm" id="ancrePop4">Ils ont donné leur avis</h3>
-                <div class="listComment">
-                    <div class="cardComment">
-                        <div class="cardName">
-                            <div class="cardImage">
-                                <img src="images/guy1.jpg" alt="images d'un homme masqué">
+                    <div id="feedbacks" class="carte2Livre">
+                        <article class="feedback feedbackLivre">
+                            <div class="cartImgTop">
+                                <img src="https://thispersondoesnotexist.com/image" alt="person1">
                             </div>
-                        </div>
-                        <div class="cardContent">
-                            <p class="pPopk1">Name</p>
-                            <p class="pPopk1">"Dope dope dope dope dope dope dope dope dope"</p>
-                        </div>
-                    </div>
-                    <div class="cardComment">
-                        <div class="cardName">
-                            <div class="cardImage">
-                                <img src="images/guy1.jpg" alt="images d'un homme masqué">
+                            <div class="card-body">
+                                <h5 class="card-title">John Doe</h5>
+                                <p class="card-text">Charmant petit café sympa, l'ombre quand il fait trop chaud, très savoureux de tarta natas
+                                    et agréable avec un personnel sympa.</p>
                             </div>
-                        </div>
-                        <div class="cardContent">
-                            <p class="pPopk1">Name</p>
-                            <p class="pPopk1">"Dope dope dope dope dope dope dope dope dope"</p>
-                        </div>
-                    </div>
-                    <div class="cardComment">
-                        <div class="cardName">
-                            <div class="cardImage">
-                                <img src="images/guy1.jpg" alt="images d'un homme masqué">
+                        </article>
+                        <article class="feedback feedbackLivre">
+                            <div class="cartImgTop">
+                                <img src="https://thispersondoesnotexist.com/image" alt="person2">
                             </div>
-                        </div>
-                        <div class="cardContent">
-                            <p class="pPopk1">Name</p>
-                            <p class="pPopk1">"Dope dope dope dope dope dope dope dope dope"</p>
-                        </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Jeanne Doe</h5>
+                                <p class="card-text">J'ai passé une bonne frio café expresso (avec glace par un peu de lait) et une crème anglaise -
+                                    pâtisseries remplies avec mon mari. </p>
+                            </div>
+                        </article>
+                        <article class="feedback feedbackLivre">
+                            <div class="cartImgTop">
+                                <img src="https://thispersondoesnotexist.com/image" alt="person2">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Jeanne Doe</h5>
+                                <p class="card-text">J'ai passé une bonne frio café expresso (avec glace par un peu de lait) et une crème anglaise -
+                                    pâtisseries remplies avec mon mari. </p>
+                            </div>
+                        </article>
                     </div>
-                </div>
             </div>
         </div>
     </main>
