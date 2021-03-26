@@ -81,8 +81,9 @@ header {
 }
 
 .imgLogo {
-    height:100%;
-    width:25%;
+  display: fixed;
+  height:100%;
+  width:auto;
 }
 
 #nav-mobile {
