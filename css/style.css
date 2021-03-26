@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Sansita+Swashed&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Sansita+Swashed&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Sansita+Swashed&display=swap");
+
 #main_nav {
   margin: 0;
   padding: 0;
@@ -86,7 +87,6 @@ header {
 }
 
 .imgLogo {
-  display: fixed;
   height: 100%;
   width: auto;
 }
@@ -738,6 +738,14 @@ textarea {
   top: 100px;
 }
 
+.card-title2 {
+  color: white;
+}
+
+.card-text2 {
+  color: white;
+}
+
 @media only screen and (max-width: 767px) {
   .rating {
     margin: auto;
@@ -772,9 +780,19 @@ textarea {
   width: auto;
   border-radius: 8px;
   background-color: #00f3ff;
-  padding: 1rem;
+  padding: 2rem;
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
           box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .buttonForm {
@@ -879,6 +897,7 @@ textarea {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
   color: black;
   font-size: 2rem;
   -webkit-clip-path: polygon(100% 0, 100% 76%, 0 100%, 0 0);
@@ -890,7 +909,6 @@ textarea {
 #responsive_cocktail a {
   text-decoration: none;
   color: #ff7fda;
-  text-align: center;
 }
 
 #intro-cocktail {
@@ -918,7 +936,6 @@ textarea {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-bottom: 20px;
 }
 
 .card-right {
@@ -1103,13 +1120,13 @@ textarea {
   --pink: #ff7fda;
 }
 
-/* * {
+* {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: 'Sansita Swashed', cursive;
-} */
+}
 
 p, span, li {
   font-family: Roboto, sans-serif;
@@ -1228,6 +1245,18 @@ ul, li {
   }
 }
 
+/*
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin:0;
+    padding: 0;
+    box-sizing: content-box;
+}
+*/
+/*
+    fichier style.css
+*/
 h1.index, h2.index, h3.index {
   text-align: center;
   width: 100%;

@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* menu */
+
 #main_nav {
   margin: 0;
   padding: 0;
@@ -82,7 +83,6 @@ header {
 }
 
 .imgLogo {
-  display: fixed;
   height: 100%;
   width: auto;
 }
