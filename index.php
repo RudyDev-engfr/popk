@@ -11,9 +11,9 @@
     <script src="js/jquery-3.5.1.js"></script>    
     <script src="https://kit.fontawesome.com/d93dff7d82.js"></script> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="/JS/animate_index.js"></script>
   />
 </head>
-
 <body class="index">
     <?php
     include("_header.php");
@@ -21,6 +21,5 @@
     include("_footer.php");
     include("script.php");
     ?>
-
 </body>
 </html>

@@ -84,39 +84,8 @@ perruques à cheveux longs pour ces messieurs, robes longues ou shorts en jean /
                 </article>
             </div>
             <div id="divLivreOr">
-                <div class="divButton"><i class="fas fa-book"></i><a href="livreor.php"> Livre d'or</a></div>
+                <div class="divButton"><i class="fas fa-book"></i><a href="livreor.php#ancrePop3"> Livre d'or</a></div>
             </div>
         </section>
     </main>
-    <script type="text/javascript">
-        let listArticles=document.querySelectorAll("#idService article");
-        [].forEach.call(listArticles, function(article) {
-            article.style.visibility = "hidden";
-        });
-        window.onscroll = function() {
-            console.log("page: "+window.scrollY);
-            console.log("ecran: "+screen.height);
-            if (screen.height*(1/3)<window.scrollY) {
-                let listArticles=document.querySelectorAll("#idService article");
-                //console.log("is ok !");
-                // article haut gauche
-                listArticles[0].classList.add("animate__animated");
-                listArticles[0].classList.add("animate__fadeInTopLeft");
-                // article haut droite
-                listArticles[1].classList.add("animate__animated");
-                listArticles[1].classList.add("animate__fadeInTopRight");
-                // article bas gauche
-                listArticles[2].classList.add("animate__animated");
-                listArticles[2].classList.add("animate__fadeInBottomLeft");
-                // article bas droite
-                listArticles[3].classList.add("animate__animated");
-                listArticles[3].classList.add("animate__fadeInBottomRight");
-                  
-                [].forEach.call(listArticles, function(article) {
-                    article.style.visibility = "visible"; 
-                    article.style.setProperty('--animate-delay', '2s');
-                });   
-                
-            };                          
-    };
-    </script>
+   
