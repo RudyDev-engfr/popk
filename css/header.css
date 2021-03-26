@@ -1,12 +1,11 @@
 @charset "UTF-8";
 /* menu */
 
-
 #main_nav {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
   scroll-behavior: smooth;
@@ -24,9 +23,10 @@ header {
   height: 66px;
   width: 100%;
   background: #050052;
+  background: -webkit-gradient(linear, left top, right top, from(#050052), color-stop(21%, #090979), to(#00d4ff));
   background: linear-gradient(90deg, #050052 0%, #090979 21%, #00d4ff 100%);
   -webkit-box-shadow: 1px 4px 6px rgba(255, 255, 255, 0.2);
-          box-shadow: 1px 4px 6px rgba(255, 255, 255, 0.2);
+  box-shadow: 1px 4px 6px rgba(255, 255, 255, 0.2);
   z-index: 50;
 }
 
@@ -37,8 +37,8 @@ header {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-clip-path: polygon(0 0, 100% 0, 96% 100%, 0% 100%);
-          clip-path: polygon(0 0, 100% 0, 96% 100%, 0% 100%);
-  background-color:#00f3ff;
+  clip-path: polygon(0 0, 100% 0, 96% 100%, 0% 100%);
+  background-color: #00f3ff;
 }
 
 .nav-hours {
@@ -50,7 +50,7 @@ header {
   left: 0;
   text-align: center;
   -webkit-clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
-          clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
   background: #050052;
   background: -webkit-gradient(linear, left top, right top, color-stop(21%, #090979), to(#00d4ff));
   background: linear-gradient(90deg, #090979 21%, #00d4ff 100%);
@@ -83,8 +83,8 @@ header {
 }
 
 .imgLogo {
-  height:100%;
-  width:auto;
+  height: 100%;
+  width: auto;
 }
 
 #nav-mobile {
@@ -132,7 +132,6 @@ nav .nav-list .liMenu .aMenu:hover {
   background-color: #ff7fda;
 }
 
-
 nav .nav-list .liMenu .aMenu:not(:only-child):after {
   content: ' ▾';
 }
@@ -144,7 +143,6 @@ nav .nav-list .liMenu .aMenu .iFooter {
   padding-left: 0px;
 }
 
-
 nav .nav-list .liMenu .nav-dropdown .liMenu2 .aMenu {
   width: 176px;
   padding: 15px;
@@ -155,21 +153,20 @@ nav .nav-list .liMenu .nav-dropdown .liMenu2 .aMenu {
 }
 
 nav .nav-list .liMenu .nav-dropdown .liMenu2 .aMenu:hover {
-    background-color: #ff7fda;;
+  background-color: #ff7fda;
 }
 
 .nav-dropdown .liMenu2 .aMenu .iDropdown {
   float: left;
   position: relative;
   top: 5px;
-
 }
 
 .nav-dropdown {
   display: none;
   position: absolute;
   -webkit-box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
-          box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
 }
 
 /* menu responsive */
@@ -225,3 +222,4 @@ nav .nav-list .liMenu .nav-dropdown .liMenu2 .aMenu:hover {
     left: 100px;
   }
 }
+/*# sourceMappingURL=header.css.map */

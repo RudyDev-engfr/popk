@@ -878,7 +878,7 @@ textarea {
 #hero-bar {
   width: 100%;
   height: 201px;
-  margin-top: 200px;
+  margin: 150px 0px 50px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -888,7 +888,6 @@ textarea {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
   color: black;
   font-size: 2rem;
   -webkit-clip-path: polygon(100% 0, 100% 76%, 0 100%, 0 0);
@@ -928,6 +927,7 @@ textarea {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding-bottom: 20px;
 }
 
 .card-right {
@@ -1237,18 +1237,6 @@ ul, li {
   }
 }
 
-/*
-*{
-    font-family: 'Roboto', sans-serif;
-    font-size: 12px;
-    margin:0;
-    padding: 0;
-    box-sizing: content-box;
-}
-*/
-/*
-    fichier style.css
-*/
 h1.index, h2.index, h3.index {
   text-align: center;
   width: 100%;
@@ -1292,7 +1280,9 @@ p.index {
 }
 
 body.index {
-  background-color: #333;
+  background: #00f3ff;
+  background: -webkit-gradient(linear, left top, right top, from(#00f3ff), color-stop(35%, #050052), to(#ff7fda));
+  background: linear-gradient(90deg, #00f3ff 0%, #050052 35%, #ff7fda 100%);
 }
 
 main.index {
