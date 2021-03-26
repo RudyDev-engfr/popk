@@ -52,8 +52,8 @@
                                 <img src="https://thispersondoesnotexist.com/image" alt="person1">
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title">John Doe</h5>
-                                <p class="card-text">Charmant petit café sympa, l'ombre quand il fait trop chaud, très savoureux de tarta natas
+                                <h5 class="card-title card-title2">John Doe</h5>
+                                <p class="card-text card-text2">Charmant petit café sympa, l'ombre quand il fait trop chaud, très savoureux de tarta natas
                                     et agréable avec un personnel sympa.</p>
                             </div>
                         </article>
@@ -62,8 +62,8 @@
                                 <img src="https://thispersondoesnotexist.com/image" alt="person2">
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title">Jeanne Doe</h5>
-                                <p class="card-text">J'ai passé une bonne frio café expresso (avec glace par un peu de lait) et une crème anglaise -
+                                <h5 class="card-title card-title2">Jeanne Doe</h5>
+                                <p class="card-text card-text2">J'ai passé une bonne frio café expresso (avec glace par un peu de lait) et une crème anglaise -
                                     pâtisseries remplies avec mon mari. </p>
                             </div>
                         </article>
@@ -72,9 +72,9 @@
                                 <img src="https://thispersondoesnotexist.com/image" alt="person2">
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title">Jeanne Doe</h5>
-                                <p class="card-text">J'ai passé une bonne frio café expresso (avec glace par un peu de lait) et une crème anglaise -
-                                    pâtisseries remplies avec mon mari. </p>
+                                <h5 class="card-title card-title2">John Doe</h5>
+                                <p class="card-text card-text2">Charmant petit café sympa, l'ombre quand il fait trop chaud, très savoureux de tarta natas
+                                    et agréable avec un personnel sympa.</p>
                             </div>
                         </article>
                     </div>
