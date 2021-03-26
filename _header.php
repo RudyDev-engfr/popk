@@ -14,7 +14,7 @@
     <nav>
         <ul class="nav-list">
             <li class="liMenu">
-                <a class="aMenu" href="#!">PopK<i class="fas fa-home iFooter"></i></a>
+                <a class="aMenu" href="!#">PopK<i class="fas fa-home iFooter"></i></a>
                 <ul class="nav-dropdown">
                     <li class="liMenu2"><a class="aMenu" href="popk.php">Le cyber-café<i class="fas fa-laptop-house iDropdown"></i></a></li>
                     <li class="liMenu2"><a class="aMenu" href="popk.php#ancrePop1">Infos pratiques<i class="fas fa-info-circle iDropdown"></i></a></li>
