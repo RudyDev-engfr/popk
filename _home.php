@@ -3,25 +3,27 @@
             <video width="100%" loop autoplay muted playsinline>
                 <source src="/video/pexels-tima-miroshnichenko-5377270.mp4" type="video/mp4">
             </video>
-            <h1 class="index">PopK</h1>
+            <div id="divTitleHeader" class="animate__animated animate__backInDown">
+                <h1 class="index">PopK</h1>
+            </div>            
         </section>
         <section class="sectIndex" id="idService">
-            <article class="animate__animated animate__fadeInTopLeft">
+            <article>
                 <div><img src="/images/esportLogo.png" class="serviceLogo" alt="De l'esport"></div>
                 <div>DE L'ESPORT</div>
                 <p>Dans l'univers du jeu vidéo avec 6 PCs de joueurs et une dixaine de consoles.</p>
             </article>
-            <article class="animate__animated animate__fadeInTopRight">
+            <article>
                 <div><img src="/images/boireLogo.png" class="serviceLogo" alt="A boire"></div>
                 <div>A BOIRE</div>
                 <p>Si vous êtes amateur, pensez à goûter les bières locales qui sont très bonnes et pas très chères</p>
             </article>
-            <article class="animate__animated animate__fadeInBottomLeft">
+            <article>
                 <div><img src="/images/jeuxLogo.png" class="serviceLogo" alt="Jeux"></div>
                 <div>JEUX</div>
                 <p>Détendez-vous ! Avec cette sélection des 12 meilleurs jeux d’ambiance, vous trouverez à coup sûr votre compte.</p>
             </article>
-            <article class="animate__animated animate__fadeInBottomRight">
+            <article>
                 <div><img src="/images/soireeThemeLogo.png" class="serviceLogo" alt="Soirée à thème"></div>
                 <div>SOIREE A THEME</div>
                 <p>Plusieurs soirées à théme musicale sont organisées tout au long de l'année</p>
@@ -32,21 +34,22 @@
             <div id="listEvents">
                 <div id="colLeft">
                     <article>
-                        <h3 class="index">10/02/21 - SOIREE A THEME</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, accusantium odit earum, sint natus aut, dolor expedita ab omnis optio iste reprehenderit
-                            officia impedit. Reprehenderit libero quisquam commodi quod facilis!</p>
+                        <h3 class="index">10/02/21 - La soirée hippie</h3>
+                        <p>Rien de tel qu’un retour dans les années babas cool pour s’amuser ! Pantalons à pattes d’éléphant, chemises à fleurs, 
+perruques à cheveux longs pour ces messieurs, robes longues ou shorts en jean / tuniques pour ces dames…</p>
                     </article>
                     <article>
-                        <h3 class="index">10/07/21 - DE L'ESPORT</h3>
+                        <h3 class="index">10/07/21 - Gaming Day 2020</h3>
+                        <p>Deuxième édition de Gaming Day, un événement consacré aux jeux vidéo. Tournoi Mario Kart et autres animations</p>
                     </article>
                 </div>
                 <div id="colRight">
                     <article>
                         <h3 class="index">Liste des activités</h3>
                         <ul class="listEvents">
-                            <li class="listEvents"><span class="listEvents">10/02/21</span> Soirée Karaoke</li>
-                            <li class="listEvents"><span class="listEvents">10/01/21</span> Jeux esport</li>
-                            <li class="listEvents"><span class="listEvents">31/12/20</span> Soirée déguisée</li>
+                            <li class="listEvents"><span class="listEvents">10/02/21</span>La soirée hippie</li>
+                            <li class="listEvents"><span class="listEvents">10/01/21</span>Gaming Day 2020</li>
+                            <li class="listEvents"><span class="listEvents">31/12/20</span> Jeux esport</li>
                         </ul>
                     </article>
                     <article>
@@ -81,17 +84,39 @@
                 </article>
             </div>
             <div id="divLivreOr">
-                <div class="divButton"><i class="fas fa-book"></i> Livre d'or</div>
+                <div class="divButton"><i class="fas fa-book"></i><a href="livreor.php"> Livre d'or</a></div>
             </div>
         </section>
     </main>
     <script type="text/javascript">
+        let listArticles=document.querySelectorAll("#idService article");
+        [].forEach.call(listArticles, function(article) {
+            article.style.visibility = "hidden";
+        });
         window.onscroll = function() {
             console.log("page: "+window.scrollY);
             console.log("ecran: "+screen.height);
-               if (screen.height<window.scrollY) {
-                    alert("changed");
-               };
-                              
+            if (screen.height*(1/3)<window.scrollY) {
+                let listArticles=document.querySelectorAll("#idService article");
+                //console.log("is ok !");
+                // article haut gauche
+                listArticles[0].classList.add("animate__animated");
+                listArticles[0].classList.add("animate__fadeInTopLeft");
+                // article haut droite
+                listArticles[1].classList.add("animate__animated");
+                listArticles[1].classList.add("animate__fadeInTopRight");
+                // article bas gauche
+                listArticles[2].classList.add("animate__animated");
+                listArticles[2].classList.add("animate__fadeInBottomLeft");
+                // article bas droite
+                listArticles[3].classList.add("animate__animated");
+                listArticles[3].classList.add("animate__fadeInBottomRight");
+                  
+                [].forEach.call(listArticles, function(article) {
+                    article.style.visibility = "visible"; 
+                    article.style.setProperty('--animate-delay', '2s');
+                });   
+                
+            };                          
     };
     </script>
