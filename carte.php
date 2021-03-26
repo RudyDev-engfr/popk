@@ -19,8 +19,6 @@
             <section id="intro-cocktail">
                 <p class="pCarte">Le popK vous propose un choix unique de coktail avec & sans alcool ! 
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quas provident nihil deserunt voluptatibus quis quo aut eius beatae reprehenderit!
-                    Suscipit ut possimus, quos consectetur nisi qui porro sed nemo! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Explicabo quas provident nihil deserunt voluptatibus quis quo aut eius beatae reprehenderit!
                 </p>
             </section>
             <div id="responsive_cocktail">
