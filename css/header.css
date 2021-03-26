@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* menu */
-* {
+#main_nav {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -17,7 +17,6 @@ body {
 }
 
 header {
-  position: fixed;
   top: 0;
   height: 66px;
   width: 100%;
