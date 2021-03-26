@@ -43,9 +43,7 @@
   margin: auto;
   height: 16rem;
   width: 80%;
-  background: #050052;
-  background: -webkit-gradient(linear, left top, right top, from(#050052), color-stop(21%, #090979), to(#00d4ff));
-  background: linear-gradient(90deg, #050052 0%, #090979 21%, #00d4ff 100%);
+  background-color: rgba(238, 238, 238, 0.6);
   z-index: 5;
   position: relative;
   top: -5px;
@@ -76,7 +74,8 @@
 .cut {
   width: 100%;
   height: 10px;
-  background-color: #ff7fda;
+  background: #050052;
+  background: linear-gradient(57deg, #050052 0%, #01d6ea 30%, #00f3ff 70%, #050052 100%);
   margin-top: 50px;
 }
 
@@ -100,9 +99,7 @@
 .infos .infos1 {
   height: 20rem;
   width: 30%;
-  background: #050052;
-  background: -webkit-gradient(linear, left top, right top, from(#050052), color-stop(21%, #090979), to(#00d4ff));
-  background: linear-gradient(90deg, #050052 0%, #090979 21%, #00d4ff 100%);
+  background-color: rgba(238, 238, 238, 0.6);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

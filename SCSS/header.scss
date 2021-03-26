@@ -21,8 +21,8 @@ header {
   top: 0;
   height: 66px;
   width: 100%;
-  background: #050052;
-  background: linear-gradient(90deg, #050052 0%, #090979 21%, #00d4ff 100%);
+  background: rgb(5,0,82);
+  background: linear-gradient(57deg, rgba(5,0,82,1) 0%, rgba(1,214,234,1) 30%, rgba(0,243,255,1) 70%, rgba(5,0,82,1) 100%); 
   -webkit-box-shadow: 1px 4px 6px rgba(255, 255, 255, 0.2);
           box-shadow: 1px 4px 6px rgba(255, 255, 255, 0.2);
   z-index: 50;
@@ -36,7 +36,6 @@ header {
   display: inline-flex;
   -webkit-clip-path: polygon(0 0, 100% 0, 96% 100%, 0% 100%);
           clip-path: polygon(0 0, 100% 0, 96% 100%, 0% 100%);
-  background-color:#00f3ff;
 }
 
 .nav-hours {
@@ -49,11 +48,12 @@ header {
   text-align: center;
   -webkit-clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
           clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
-  background: #050052;
-  background: -webkit-gradient(linear, left top, right top, color-stop(21%, #090979), to(#00d4ff));
-  background: linear-gradient(90deg, #090979 21%, #00d4ff 100%);
   color: black;
   font-size: 0.9rem;
+}
+
+.pMenu {
+  z-index: 51;
 }
 
 .nav-hours .iFooter {
@@ -68,7 +68,6 @@ header {
   width: 100%;
   text-align: center;
   line-height: 66px;
-  background-color: rgba(0, 243, 255, 0.8);
 }
 
 .logo .aMenu {
@@ -101,6 +100,7 @@ header {
 #nav-mobile i {
   font-size: 1.8rem;
   padding-top: 1.2rem;
+  text-shadow: white 5px;
 }
 
 #nav-mobile i:hover {
@@ -175,6 +175,9 @@ nav .nav-list .liMenu .nav-dropdown .liMenu2 .aMenu:hover {
 @media only screen and (max-width: 991px) {
   .brand {
     width: 85%;
+  }
+  nav .nav-list .liMenu .aMenu {
+  text-shadow: black 5px;
   }
   .nav-hours {
     display: block;

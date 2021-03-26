@@ -26,8 +26,7 @@ header {
   height: 66px;
   width: 100%;
   background: #050052;
-  background: -webkit-gradient(linear, left top, right top, from(#050052), color-stop(21%, #090979), to(#00d4ff));
-  background: linear-gradient(90deg, #050052 0%, #090979 21%, #00d4ff 100%);
+  background: linear-gradient(57deg, #050052 0%, #01d6ea 30%, #00f3ff 70%, #050052 100%);
   -webkit-box-shadow: 1px 4px 6px rgba(255, 255, 255, 0.2);
   box-shadow: 1px 4px 6px rgba(255, 255, 255, 0.2);
   z-index: 50;
@@ -41,7 +40,6 @@ header {
   display: inline-flex;
   -webkit-clip-path: polygon(0 0, 100% 0, 96% 100%, 0% 100%);
   clip-path: polygon(0 0, 100% 0, 96% 100%, 0% 100%);
-  background-color: #00f3ff;
 }
 
 .nav-hours {
@@ -54,11 +52,12 @@ header {
   text-align: center;
   -webkit-clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
   clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
-  background: #050052;
-  background: -webkit-gradient(linear, left top, right top, color-stop(21%, #090979), to(#00d4ff));
-  background: linear-gradient(90deg, #090979 21%, #00d4ff 100%);
   color: black;
   font-size: 0.9rem;
+}
+
+.pMenu {
+  z-index: 51;
 }
 
 .nav-hours .iFooter {
@@ -73,7 +72,6 @@ header {
   width: 100%;
   text-align: center;
   line-height: 66px;
-  background-color: rgba(0, 243, 255, 0.8);
 }
 
 .logo .aMenu {
@@ -86,8 +84,9 @@ header {
 }
 
 .imgLogo {
+  display: fixed;
   height: 100%;
-  width: 25%;
+  width: auto;
 }
 
 #nav-mobile {
@@ -105,6 +104,7 @@ header {
 #nav-mobile i {
   font-size: 1.8rem;
   padding-top: 1.2rem;
+  text-shadow: white 5px;
 }
 
 #nav-mobile i:hover {
@@ -176,6 +176,9 @@ nav .nav-list .liMenu .nav-dropdown .liMenu2 .aMenu:hover {
 @media only screen and (max-width: 991px) {
   .brand {
     width: 85%;
+  }
+  nav .nav-list .liMenu .aMenu {
+    text-shadow: black 5px;
   }
   .nav-hours {
     display: block;
@@ -349,9 +352,7 @@ footer {
   margin: auto;
   height: 16rem;
   width: 80%;
-  background: #050052;
-  background: -webkit-gradient(linear, left top, right top, from(#050052), color-stop(21%, #090979), to(#00d4ff));
-  background: linear-gradient(90deg, #050052 0%, #090979 21%, #00d4ff 100%);
+  background-color: rgba(238, 238, 238, 0.6);
   z-index: 5;
   position: relative;
   top: -5px;
@@ -382,7 +383,8 @@ footer {
 .cut {
   width: 100%;
   height: 10px;
-  background-color: #ff7fda;
+  background: #050052;
+  background: linear-gradient(57deg, #050052 0%, #01d6ea 30%, #00f3ff 70%, #050052 100%);
   margin-top: 50px;
 }
 
@@ -406,9 +408,7 @@ footer {
 .infos .infos1 {
   height: 20rem;
   width: 30%;
-  background: #050052;
-  background: -webkit-gradient(linear, left top, right top, from(#050052), color-stop(21%, #090979), to(#00d4ff));
-  background: linear-gradient(90deg, #050052 0%, #090979 21%, #00d4ff 100%);
+  background-color: rgba(238, 238, 238, 0.6);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -626,7 +626,7 @@ textarea {
 }
 
 .rating .aRating:hover, .rating .aRating:focus, .rating .aRating:hover ~ .aRating, .rating .aRating:focus ~ .aRating {
-  color: #00f3ff;
+  color: var(--purple);
   cursor: pointer;
 }
 
@@ -737,6 +737,10 @@ textarea {
   top: 100px;
 }
 
+.card-title2, .card-text2 {
+  color: var(--white);
+}
+
 @media only screen and (max-width: 767px) {
   .rating {
     margin: auto;
@@ -796,10 +800,6 @@ textarea {
   text-decoration: none;
   color: black;
   font-size: 1rem;
-}
-
-.h1Carte {
-  line-height: 180px;
 }
 
 .h1Carte, .first-blood, .garrosh, .nunu, .smite, .lili, .prodigy {
@@ -1097,8 +1097,8 @@ textarea {
 }
 
 :root {
-  --blackfont: black;
-  --whitefont: white;
+  --black: black;
+  --white: white;
   --darkblue: #050052;
   --cyan: #00f3ff;
   --purple: #4a0979;
@@ -1247,16 +1247,19 @@ h1.index, h2.index, h3.index {
   width: 100%;
 }
 
-h1.index {
-  font-family: 'Sansita Swashed', cursive;
-  font-size: 64px;
+#divTitleHeader {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 40%;
+  left: 40%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  text-shadow: #050052 2px 2px 2px, #050052 -2px 2px 2px, #050052 -2px -2px 2px, #050052 2px -2px 2px;
-  color: #ff7fda;
+}
+
+h1.index {
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 5rem;
+  text-shadow: #ff7fda 5px 5px 5px, #050052 -5px 5px 5px, #050052 -5px -5px 5px, #050052 5px -5px 5px;
+  color: #00f3ff;
 }
 
 h2.index {
@@ -1394,6 +1397,7 @@ ul.listEvents {
 li.listEvents {
   list-style: none;
   margin: 10px 5px;
+  text-align: center;
 }
 
 span.listEvents {
@@ -1403,7 +1407,9 @@ span.listEvents {
   font-weight: bolder;
   padding: 2px 5px;
   border-radius: 5px;
-  width: 20px;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
 }
 
 .serviceLogo {
@@ -1516,7 +1522,14 @@ article.feedback {
           box-shadow: 5px 5px 5px #ff7fda;
 }
 
+.divButton a {
+  color: white;
+}
+
 @media screen and (max-width: 760px) {
+  h1.index {
+    font-size: 2rem;
+  }
   h2.index {
     font-size: 1.2rem;
   }
@@ -1527,11 +1540,20 @@ article.feedback {
     font-size: 1rem;
     margin: 10px auto;
   }
+  #idVideo {
+    margin: 0px;
+  }
   #colLeft article, #colRight article {
     margin: 5px 0px;
   }
   section.sectIndex {
-    height: 60vh;
+    height: 75vh;
+  }
+  #idEvents {
+    height: 90vh;
+  }
+  #listEvents {
+    width: 100%;
   }
   .cartImgTop img {
     width: 50%;
