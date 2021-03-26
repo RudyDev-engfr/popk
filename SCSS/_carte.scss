@@ -25,12 +25,12 @@
     margin: 0;
     background-color: rgb(14, 13, 13);
 }
-#cocktail_a .imgCarte {
+#cocktail_a img{
     display: flex;
     margin: auto;
     width: 70%;
 }
-#cocktail_sa .imgCarte {
+#cocktail_sa img{
     display: flex;
     margin: auto;
     width: 70%;
@@ -52,9 +52,8 @@
     height: 201px;
     margin-top: 200px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    flex-wrap: nowrap;
+    justify-content: space-around;
     color: black;
     font-size: 2rem;
     clip-path: polygon(100% 0, 100% 76%, 0 100%, 0 0);
@@ -63,6 +62,10 @@
 #responsive_cocktail a{
     text-decoration: none;
     color: #ff7fda;
+}
+.imgCarte{
+    display: block;
+    margin: auto;
 }
 #intro-cocktail{
     display: flex;
@@ -80,12 +83,13 @@
     
 }
 .card-right{
-    clip-path: polygon(0 6%, 100% 0%, 100% 100%, 0 94%);
+    // clip-path: polygon(0 6%, 100% 0%, 100% 100%, 0 94%);
     background: linear-gradient(90deg, rgba(5,0,82,1) 0%, rgba(9,9,121,1) 21%, rgba(0,212,255,1) 100%);
 }
 .card-left{  
-    clip-path: polygon(0 0, 100% 6%, 100% 94%, 0 100%);
+    // clip-path: polygon(0 0, 100% 6%, 100% 94%, 0 100%);
     background: linear-gradient(90deg, rgba(5,0,82,1) 0%, rgba(9,9,121,1) 21%, rgba(0,212,255,1) 100%);
+    padding: 20px;
 }
 .list_cocktail{
     display: flex;
@@ -94,9 +98,10 @@
 }
 .list_cocktail li{
     color: #ff7fda;
+    text-shadow : black 5px;
     font-weight: 700;
     font-size: 1.1rem;;
-    margin-right: 30px;
+    margin-right: 35px;
     list-style-type: circle;
     text-transform: uppercase;
 }
@@ -104,7 +109,7 @@
     width: 60%;
     text-align: center;
     transform: rotate(-4deg) skew(-5deg, 0);
-    background-color: rgba(165, 6, 6, 0.808);
+    background-color: rgba(165, 6, 6, 1);
     color: #ffe600;
 }
 .nunu{

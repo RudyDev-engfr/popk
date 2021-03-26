@@ -378,6 +378,7 @@ footer {
   width: 80%;
   margin: auto;
   font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
 }
 
 .cut {
@@ -512,7 +513,7 @@ textarea {
 }
 
 .send {
-  width: 25%;
+  width: 38%;
   height: 20%;
   margin-top: 15px;
   padding: 0;
@@ -831,7 +832,7 @@ textarea {
   background-color: #0e0d0d;
 }
 
-#cocktail_a .imgCarte {
+#cocktail_a img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -839,7 +840,7 @@ textarea {
   width: 70%;
 }
 
-#cocktail_sa .imgCarte {
+#cocktail_sa img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -876,13 +877,10 @@ textarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   color: black;
   font-size: 2rem;
   -webkit-clip-path: polygon(100% 0, 100% 76%, 0 100%, 0 0);
@@ -894,6 +892,11 @@ textarea {
 #responsive_cocktail a {
   text-decoration: none;
   color: #ff7fda;
+}
+
+.imgCarte {
+  display: block;
+  margin: auto;
 }
 
 #intro-cocktail {
@@ -924,17 +927,14 @@ textarea {
 }
 
 .card-right {
-  -webkit-clip-path: polygon(0 6%, 100% 0%, 100% 100%, 0 94%);
-          clip-path: polygon(0 6%, 100% 0%, 100% 100%, 0 94%);
   background: -webkit-gradient(linear, left top, right top, from(#050052), color-stop(21%, #090979), to(#00d4ff));
   background: linear-gradient(90deg, #050052 0%, #090979 21%, #00d4ff 100%);
 }
 
 .card-left {
-  -webkit-clip-path: polygon(0 0, 100% 6%, 100% 94%, 0 100%);
-          clip-path: polygon(0 0, 100% 6%, 100% 94%, 0 100%);
   background: -webkit-gradient(linear, left top, right top, from(#050052), color-stop(21%, #090979), to(#00d4ff));
   background: linear-gradient(90deg, #050052 0%, #090979 21%, #00d4ff 100%);
+  padding: 20px;
 }
 
 .list_cocktail {
@@ -948,9 +948,10 @@ textarea {
 
 .list_cocktail li {
   color: #ff7fda;
+  text-shadow: black 5px;
   font-weight: 700;
   font-size: 1.1rem;
-  margin-right: 30px;
+  margin-right: 35px;
   list-style-type: circle;
   text-transform: uppercase;
 }
@@ -960,7 +961,7 @@ textarea {
   text-align: center;
   -webkit-transform: rotate(-4deg) skew(-5deg, 0);
           transform: rotate(-4deg) skew(-5deg, 0);
-  background-color: rgba(165, 6, 6, 0.808);
+  background-color: #a50606;
   color: #ffe600;
 }
 
@@ -1285,9 +1286,7 @@ p.index {
 }
 
 body.index {
-  background: #00f3ff;
-  background: -webkit-gradient(linear, left top, right top, from(#00f3ff), color-stop(35%, #050052), to(#ff7fda));
-  background: linear-gradient(90deg, #00f3ff 0%, #050052 35%, #ff7fda 100%);
+  background: black;
 }
 
 main.index {

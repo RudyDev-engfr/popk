@@ -10,7 +10,7 @@
     <title>La carte</title>
 </head>
 <body id="body_carte">
-    <?php include "_header.php"; ?>  
+    <?php include("_header.php"); ?>  
     <main id="main-carte">  
         <section id="landing">
             <div id="hero-bar">
@@ -67,7 +67,6 @@
                     <ul class="list_cocktail">
                         <li>Scotch</li>
                         <li>crème</li>
-                        <li>Sirop de vanille</li>
                         <li>Sirop de vanille</li>
                     </ul>
                 </div>

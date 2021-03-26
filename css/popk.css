@@ -69,6 +69,7 @@
   width: 80%;
   margin: auto;
   font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
 }
 
 .cut {
@@ -203,7 +204,7 @@ textarea {
 }
 
 .send {
-  width: 25%;
+  width: 38%;
   height: 20%;
   margin-top: 15px;
   padding: 0;

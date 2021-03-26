@@ -17,7 +17,7 @@
         <div class="elementsPopk">
             <div class="presentation">
                 <h2 class="h2Popk">Cyber-culture / pop-café</h2>
-                <p class="pPopk1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quas provident nihil deserunt voluptatibus quis quo aut eius beatae reprehenderit! Suscipit ut possimus, quos consectetur nisi qui porro sed nemo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quas provident nihil deserunt voluptatibus quis quo aut eius beatae reprehenderit! Suscipit ut possimus, quos consectetur nisi qui porro sed nemo! </p>
+                <p class="pPopk1">Bienvenue au PopK, un Cyber-café axé sur le thème de la Pop culture et des jeux vidéos. Si vous aimez le gradient, vous êtes le bienvenue ! Au programme, des cocktails au sang chaud, des tournois incroyables et des soirées à thème !  </p>
             </div>
             <div class="cut" id="ancrePop1"></div>
             <div class="infos">
