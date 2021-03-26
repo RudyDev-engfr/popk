@@ -7,7 +7,6 @@
 .h1Carte, .first-blood, .garrosh, .nunu, .smite, .lili, .prodigy {
     font-family: "SansitaSwashed-Regular", cursive;
     align-self: flex-start;
-
 }
 .h2Carte{
     text-align: center;
@@ -18,13 +17,12 @@
     text-align: center;
     padding: 5px;
     margin: auto;
+
 }
 .first-blood, .garrosh, .nunu, .smite, .lili, .prodigy {
     text-align: center;
     font-size: 2.3rem;
 }
-
-
 /* body */
 #body_carte{
     margin: 0;
@@ -151,7 +149,6 @@
 
 
 @media only screen and (min-width: 767px){
-
 #intro-cocktail{
     display:flex;
     align-items: center;

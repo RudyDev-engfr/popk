@@ -19,9 +19,8 @@
     include("_header.php");
     include("_home.php");
     include("_footer.php");
+    include("script.php");
     ?>
-    <script src="./JS/jquery-3.5.1.js"></script>
-    <script src="./JS/app.js"></script>
-</body>
 
+</body>
 </html>
