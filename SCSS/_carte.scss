@@ -1,15 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sansita+Swashed&display=swap');
 
-
-#body_carte h1, h3{
+.h1Carte {
+    line-height: 180px;
+}
+.h1Carte, .first-blood, .garrosh, .nunu, .smite, .lili, .prodigy {
     font-family: "SansitaSwashed-Regular", cursive;
     align-self: flex-start;
 }
-#body_carte h2{
+.h2Carte{
     text-align: center;
 }
-#body_carte p {
+.pCarte {
     font-family: "Roboto", sans-serif;
     font-size: 1.2rem;
     text-align: center;
@@ -17,7 +19,7 @@
     margin: auto;
 
 }
-#body_carte h3 {
+.first-blood, .garrosh, .nunu, .smite, .lili, .prodigy {
     text-align: center;
     font-size: 2.3rem;
 }
@@ -26,12 +28,12 @@
     margin: 0;
     background-color: rgb(14, 13, 13);
 }
-#cocktail_a img {
+#cocktail_a .imgCarte {
     display: flex;
     margin: auto;
     width: 70%;
 }
-#cocktail_sa img {
+#cocktail_sa .imgCarte {
     display: flex;
     margin: auto;
     width: 70%;
@@ -158,10 +160,10 @@
 #landing img{
     width: 100%;
 }
-#cocktail_a img{
+#cocktail_a .imgCarte{
     width: 35%;
 }
-#cocktail_sa img{
+#cocktail_sa .imgCarte{
     width: 35%;
 }
 .card-left{
@@ -196,7 +198,7 @@
     align-items: center;
     height: 400px;
 }
-#responsive_cocktail h2{
+#responsive_cocktail .h2Carte{
     position: relative;
     top: 210px;
     right: 130px;
