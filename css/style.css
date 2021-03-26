@@ -4,7 +4,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Sansita+Swashed&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Sansita+Swashed&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Sansita+Swashed&display=swap");
-
 #main_nav {
   margin: 0;
   padding: 0;
@@ -846,7 +845,7 @@ textarea {
   background-color: #0e0d0d;
 }
 
-#cocktail_a .imgCarte {
+#cocktail_a img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -854,7 +853,7 @@ textarea {
   width: 70%;
 }
 
-#cocktail_sa .imgCarte {
+#cocktail_sa img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -897,7 +896,6 @@ textarea {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
   color: black;
   font-size: 2rem;
   -webkit-clip-path: polygon(100% 0, 100% 76%, 0 100%, 0 0);
@@ -909,6 +907,7 @@ textarea {
 #responsive_cocktail a {
   text-decoration: none;
   color: #ff7fda;
+  text-align: center;
 }
 
 #intro-cocktail {
@@ -936,6 +935,7 @@ textarea {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding-bottom: 20px;
 }
 
 .card-right {
@@ -1245,18 +1245,6 @@ ul, li {
   }
 }
 
-/*
-*{
-    font-family: 'Roboto', sans-serif;
-    font-size: 12px;
-    margin:0;
-    padding: 0;
-    box-sizing: content-box;
-}
-*/
-/*
-    fichier style.css
-*/
 h1.index, h2.index, h3.index {
   text-align: center;
   width: 100%;
