@@ -14,20 +14,20 @@
     <main id="main-carte">  
         <section id="landing">
             <div id="hero-bar">
-                <h1>La PopKarte </h1>
+                <h1 class="h1Carte">La PopKarte </h1>
             </div>
             <section id="intro-cocktail">
-                <p>Le popK vous propose un choix unique de coktail avec & sans alcool ! 
+                <p class="pCarte">Le popK vous propose un choix unique de coktail avec & sans alcool ! 
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quas provident nihil deserunt voluptatibus quis quo aut eius beatae reprehenderit!
                     Suscipit ut possimus, quos consectetur nisi qui porro sed nemo! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Explicabo quas provident nihil deserunt voluptatibus quis quo aut eius beatae reprehenderit!
                 </p>
             </section>
             <div id="responsive_cocktail">
-            <a href="#cocktail_sa"><img src="images/cocktailbleu.png" alt="Cocktail sans alcool" /></a>
-            <a href="#cocktail_sa"><h2>Sans alcool</h2></a>
-            <a href="#cocktail_a"><img src="images/cocktailrose.png" alt="Cocktail avec alcool" /></a>
-            <a href="#cocktail_a"><h2>Alcool</h2></a>
+            <a href="#cocktail_sa"><img class="imgCarte" src="images/cocktailbleu.png" alt="Cocktail sans alcool" /></a>
+            <a href="#cocktail_sa"><h2 class="h2Carte">Sans alcool</h2></a>
+            <a href="#cocktail_a"><img class="imgCarte" src="images/cocktailrose.png" alt="Cocktail avec alcool" /></a>
+            <a href="#cocktail_a"><h2 class="h2Carte">Alcool</h2></a>
             </div>
         </section>
         <section id="cocktail_a">
@@ -35,7 +35,7 @@
                 <img src="images/first_blood-complete.png" alt="Cocktail first blood" class="first-color" />
                 <div class="card-left">
                     <h3 class="first-blood">First blood</h3>
-                    <p>Toute la joie d'effectuer le first kill, dans un verre !</p>
+                    <p class="pCarte">Toute la joie d'effectuer le first kill, dans un verre !</p>
                     <ul class="list_cocktail">
                         <li>Vodka</li>
                         <li>Sirop d'orgeat</li>
@@ -49,7 +49,7 @@
                 <img src="images/garrosh-complete.png" alt="Cocktail Garrosh" class="second-color" />
                 <div class="card-right">
                 <h3 class="garrosh">Garrosh</h3>
-                    <p>Soutiens ton clan en buvant le breuvage officiel du célèbre seigneur de guerre.
+                    <p class="pCarte">Soutiens ton clan en buvant le breuvage officiel du célèbre seigneur de guerre.
                     Pour la Horde !!!</p>
                     <ul class="list_cocktail">
                         <li>Vodka</li>
@@ -78,7 +78,7 @@
                 <img src="images/smite-complete.png" alt="Cocktail Smite" class="secondary-color" />
                 <div class="card-right">
                     <h3 class="smite">Smite</h3>
-                    <p>Punis ta soif avec une boisson pleine d’énergie mystique.</p>
+                    <p class="pCarte">Punis ta soif avec une boisson pleine d’énergie mystique.</p>
                     <ul class="list_cocktail">
                         <li>Jus d'ananas</li>
                         <li>Jus de pomme</li>
@@ -91,7 +91,7 @@
                 <img src="images/lili-complete.png" alt="Cocktail Lili" class="first-color" />
                 <div class="card-left">
                     <h3 class="lili">Lili</h3>
-                    <p>Dites oui à un moment de douceur dans ce monde de brutes.</p>
+                    <p class="pCarte">Dites oui à un moment de douceur dans ce monde de brutes.</p>
                     <ul class="list_cocktail">
                         <li>Crème</li>
                         <li>Jus de fraise</li>
@@ -103,7 +103,7 @@
                     <img src="images/prodigy-complete.png" alt="Cocktail Prodigy ice-tea" class="secondary-color" />
                     <div class="card-right">
                         <h3 class="prodigy">Prodigy ice-tea</h3>
-                        <p>Un mélange où thé et fruits s'associent pour donner naissance au rafraîchissement ultime.</p>
+                        <p class="pCarte">Un mélange où thé et fruits s'associent pour donner naissance au rafraîchissement ultime.</p>
                         <ul class="list_cocktail">
                             <li>Jus de pomme</li>
                             <li>Thé glacé</li>

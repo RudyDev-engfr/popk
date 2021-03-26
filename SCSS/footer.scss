@@ -3,12 +3,11 @@
 footer {
     height: 66px;
     width: 100%;
-    background-color: grey;
     display: inline-flex;
     justify-content: space-between;
     position: relative;
     bottom:0;
-    background: rgb(5,0,82);
+    background: #050052;
     background: linear-gradient(90deg, rgba(5,0,82,1) 0%, rgba(9,9,121,1) 21%, rgba(0,212,255,1) 100%);
     z-index: 1;
 }
@@ -24,7 +23,7 @@ footer {
 .links .aFooter {
     width:15%;
     margin: auto;
-    color: white;
+    color: #EEE;
     font-size: 1.6rem;
     padding-right: 1.4rem;
 }
@@ -35,17 +34,17 @@ footer {
     line-height: 66px;
     margin:auto;
     text-align:center;
-    background-color: rgb(0,243,255);
+    background-color: #00f3ff;
     clip-path: polygon(20% 0, 100% 0, 83% 100%, 0% 100%);
 }
 
-.logoFooter .aFooter {
+.logoFooter .a2Footer {
     text-decoration: none;
     color: black;
 }
 
-.links .aFooter:hover, .logoFooter .aFooter:hover, .linksContact .aFooter:hover {
-    color: rgb(255,127,218);
+.links .aFooter:hover, .logoFooter .a2Footer:hover, .linksContact .aFooter:hover {
+    color: #ff7fda;
     transition: 0.3s ease-in-out;
 }
 
@@ -61,6 +60,6 @@ footer {
     width: 15%;
     margin: auto;
     text-decoration: none;
-    color: white;
+    color: #EEE;
     font-size: 1.4rem;
 }

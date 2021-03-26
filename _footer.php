@@ -10,7 +10,7 @@
 	   		<i class="fa fa-youtube iFooter" aria-hidden="true"></i>
 	   	</a>
 	</div>
-    <div class="logoFooter"><a href="#top">Le PopK</a></div>
+    <div class="logoFooter"><a class="a2Footer" href="#top">Le PopK</a></div>
     <div class="linksContact">
         <a class="aFooter" href="tel:06XXXXXXXX">
             <i class="fas fa-phone-alt iFooter"></i>

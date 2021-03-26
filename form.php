@@ -54,7 +54,7 @@
                 }
                 ?>
             </p>
-            <button class="buttonForm"><a href="index.php">Retourner à l'accueil</a></button>
+            <button class="buttonForm"><a class="aForm" href="index.php">Retourner à l'accueil</a></button>
         </div>
     </main>
     <?php include "_footer.php"; ?> 

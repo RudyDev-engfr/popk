@@ -2,7 +2,6 @@
 footer {
   height: 66px;
   width: 100%;
-  background-color: grey;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -31,7 +30,7 @@ footer {
 .links .aFooter {
   width: 15%;
   margin: auto;
-  color: white;
+  color: #EEE;
   font-size: 1.6rem;
   padding-right: 1.4rem;
 }
@@ -47,12 +46,12 @@ footer {
           clip-path: polygon(20% 0, 100% 0, 83% 100%, 0% 100%);
 }
 
-.logoFooter .aFooter {
+.logoFooter .a2Footer {
   text-decoration: none;
   color: black;
 }
 
-.links .aFooter:hover, .logoFooter .aFooter:hover, .linksContact .aFooter:hover {
+.links .aFooter:hover, .logoFooter .a2Footer:hover, .linksContact .aFooter:hover {
   color: #ff7fda;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
@@ -73,7 +72,7 @@ footer {
   width: 15%;
   margin: auto;
   text-decoration: none;
-  color: white;
+  color: #EEE;
   font-size: 1.4rem;
 }
 /*# sourceMappingURL=footer.css.map */
